@@ -57,21 +57,21 @@ class G5ThemeHelper
                     <?php echo get_avatar($comment, $size = '40'); ?>
                 </div>
                 <div class="author-meta vcard">
-                    <?php printf(__('<span class="author-name">%s</span>', 'g5_helium'), get_comment_author_link()); ?>
+                    <?php printf(__('<span class="author-name">%s</span>', 'g5_selfie'), get_comment_author_link()); ?>
                     <br />
                     <time datetime="<?php echo comment_date('c'); ?>">
                         <a href="<?php echo esc_url(get_comment_link($comment->comment_ID)); ?>">
-                            <?php printf(__('Commented on %1$s', 'g5_helium'), get_comment_date(), get_comment_time()); ?>
+                            <?php printf(__('Commented on %1$s', 'g5_selfie'), get_comment_date(), get_comment_time()); ?>
                         </a>
                     </time>
-                    <?php edit_comment_link(__('(Edit)', 'g5_helium'), '<span class="edit-link">', '</span>'); ?>
+                    <?php edit_comment_link(__('(Edit)', 'g5_selfie'), '<span class="edit-link">', '</span>'); ?>
                 </div>
             </header>
 
             <section class="comment-content">
                 <?php if ($comment->comment_approved == '0') : ?>
                     <div class="notice">
-                        <p class="alert-info"><?php _e('Your comment is awaiting moderation.', 'g5_helium'); ?></p>
+                        <p class="alert-info"><?php _e('Your comment is awaiting moderation.', 'g5_selfie'); ?></p>
                     </div>
                 <?php endif; ?>
 

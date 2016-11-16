@@ -28,7 +28,7 @@ if (!$gantry) {
 
 if (!$gantry->isCompatible($requiredGantryVersion)) {
     $current_theme = wp_get_theme();
-    $error = sprintf(__('Please upgrade Gantry 5 Framework to v%s (or later) before using %s theme!', 'g5_helium'), strtoupper($requiredGantryVersion), $current_theme->get('Name'));
+    $error = sprintf(__('Please upgrade Gantry 5 Framework to v%s (or later) before using %s theme!', 'g5_selfie'), strtoupper($requiredGantryVersion), $current_theme->get('Name'));
 
     if(is_admin()) {
         add_action('admin_notices', function () use ($error) {
@@ -49,7 +49,7 @@ $helpers = array(
 
 foreach ($helpers as $file) {
     if (!$filepath = locate_template($file)) {
-        trigger_error(sprintf(__('Error locating %s for inclusion', 'g5_helium'), $file), E_USER_ERROR);
+        trigger_error(sprintf(__('Error locating %s for inclusion', 'g5_selfie'), $file), E_USER_ERROR);
     }
 
     require $filepath;

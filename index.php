@@ -19,7 +19,7 @@ defined('ABSPATH') or die;
  */
 
 if (!class_exists('Timber')) {
-    _e('Timber not activated. Make sure you activate the plugin in <a href="/wp-admin/plugins.php#timber">/wp-admin/plugins.php</a>', 'g5_helium');
+    _e('Timber not activated. Make sure you activate the plugin in <a href="/wp-admin/plugins.php#timber">/wp-admin/plugins.php</a>', 'g5_selfie');
     return;
 }
 

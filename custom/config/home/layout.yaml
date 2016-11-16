@@ -106,7 +106,7 @@ content:
       items:
         -
           image: 'gantry-media://header/img01.jpg'
-          title: 'Helium is here!'
+          title: 'Selfie is here!'
           desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
@@ -115,8 +115,8 @@ content:
           name: 'Item 1'
         -
           image: 'gantry-media://header/img02.jpg'
-          title: 'Helium is Gantry powered!'
-          desc: 'Helium is based on the powerful Gantry framework.'
+          title: 'Selfie is Gantry powered!'
+          desc: 'Selfie is based on the powerful Gantry framework.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
           buttonclass: button-outline
@@ -124,7 +124,7 @@ content:
   custom-5807:
     title: Intro
     attributes:
-      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Build your beautiful theme, the way you want it, with Helium</h2>\n    <p>Craft memorable, emotive experiences with our Gantry 5 framework.</p>\n    <div class=\"ipad-mockup\">\n        <img src=\"gantry-media://intro/mockup.png\" alt=\"\" />\n    </div>\n</div>"
+      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Build your beautiful theme, the way you want it, with Selfie</h2>\n    <p>Craft memorable, emotive experiences with our Gantry 5 framework.</p>\n    <div class=\"ipad-mockup\">\n        <img src=\"gantry-media://intro/mockup.png\" alt=\"\" />\n    </div>\n</div>"
     block:
       variations: center
   custom-3119:
@@ -192,13 +192,13 @@ content:
   custom-7658:
     title: 'Customer Testimonials'
     attributes:
-      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Helium is a beautiful, free theme made by the RocketTheme team in appreciation of the incredible Gantry community.\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Selfie is a beautiful, free theme made by the RocketTheme team in appreciation of the incredible Gantry community.\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
     block:
       variations: center
   custom-6355:
     title: 'Develop CMS themes quickly'
     attributes:
-      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Helium was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Helium is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Selfie was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Selfie is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
     block:
       variations: title-center
   logo-9571:

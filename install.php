@@ -10,7 +10,7 @@
 
 defined('ABSPATH') or die;
 
-class G5_HeliumInstallerScript
+class G5_SelfieInstallerScript
 {
     /**
      * Called by TemplateInstaller to customize post-installation.

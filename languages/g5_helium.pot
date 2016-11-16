@@ -1,8 +1,8 @@
 # Copyright (C) 2016 RocketTheme, LLC
-# This file is distributed under the same license as the Helium package.
+# This file is distributed under the same license as the Selfie package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Helium @version@\n"
+"Project-Id-Version: Selfie @version@\n"
 "Report-Msgid-Bugs-To: https://github.com/gantry/gantry5/\n"
 "POT-Creation-Date: 2016-08-19 13:30:03+00:00\n"
 "MIME-Version: 1.0\n"

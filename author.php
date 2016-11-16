@@ -28,7 +28,7 @@ $context['posts'] = Timber::get_posts();
 if (isset($authordata)) {
     $author            = new TimberUser($authordata->ID);
     $context['author'] = $author;
-    $context['title']  = __('Author:', 'g5_helium') . ' ' . $author->name();
+    $context['title']  = __('Author:', 'g5_selfie') . ' ' . $author->name();
 }
 
 Timber::render(['author.html.twig', 'archive.html.twig', 'index.html.twig'], $context);
