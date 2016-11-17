@@ -3,13 +3,14 @@ timestamp: 1479313166
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
-  name: home_-_particles
+  name: home
   timestamp: 1472319055
 positions: {  }
 sections:
   navigation: Navigation
   intro: Intro
   features: Features
+  protfolio: Protfolio
   utility: Utility
   above: Above
   testimonials: Testimonials

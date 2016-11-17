@@ -1,52 +1,77 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 
 {% block particle %}
-{% set section = [] %}
+    {% set section = [] %}
 
-    <div class="profile {{ particle.class|e }}">
-        <!-- YOUR PHOTO -->
-        {% if particle.name %}
-            <div class="name-title">
-                <h2>{{ particle.name }}</h2>
-                <!-- Your Name -->
-                {% if particle.title %}
-                    <h5>{{ particle.title }}</h5>
-                    <!-- Your Designation -->
+    <section class="time-line {{ particle.class|e }}">
+            <!-- History Year -->
+            {% for experience in particle.sections %}
+                {% if experience.title not in section %}
+                    <div class="job-ribbon">
+                        <span>
+                            <i class="{{ experience.icon }}"></i>{{ experience.title }}
+                        </span>
+                    </div>
+                    {% set section = section | merge([history.section]) %}
                 {% endif %}
-            </div>
-        {% endif %}
-    </div>
+                <div class="timeline timeline-selfie">
+                    {% if experience.title not in section %}
+                        {% for key, item in particle.items %}
+                            {% if experience.title == item.section %}
+                                {% if key % 2 == 0 %}
 
-    <ul class="timeline list-unstyled {{ particle.class|e }}">
-        <!-- History Year -->
-        {% for experience in particle.items %}
-            {% if experience.section not in section %}
-                <li class="title">{{ experience.section }}</li>
-                {% set section = section | merge([experience.section]) %}
+                                    <div class="timeline-row item_fade_in selfie-resume-item-left {% if condition %}selfie-first-item{% endif %}">
+                                    {% else %}
+                                        <div class="timeline-row item_fade_in selfie-resume-item-right">
+                                        {% endif %}
+                                        <div class="timeline-time">
+                                            <small>{{ item.date }}</small>{{ item.label }}
+                                        </div>
+                                        <div class="timeline-icon">
+                                            <div class="bg-primary">
+                                                <i class="{{ item.icon }}"></i>
+                                            </div>
+                                        </div>
+                                        <div class="panel timeline-content">
+                                            <div class="panel-body panel-body-resume">
+                                                <div class="panel-body-right">
+                                                    <h4 class="strong strong-timeline">
+                                                        <a href="{{ item.link|e }}" title="{{ item.title }}">{{ item.title }}</a>
+                                                    </h4>
+                                                    <div class="make-margin-bottom-eighteen">
+                                                        <p>
+                                                            {{ item.desc|e('html') }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="make-margin-bottom-eighteen">
+                                                        <div class="wpb_text_columselfie-title-margin">
+                                                            <p>
+                                                                {{ item.info1 }}:
+                                                            </p>
+                                                        </div>
+                                                        <p>
+                                                            {{ item.info1_sub }}
+                                                        </p>
+                                                    </div>
+                                                    <div class="make-margin-bottom-eighteen">
+                                                        <div class="selfie-title-margin">
+                                                            <p>
+                                                                {{ item.info2 }}:
+                                                            </p>
+                                                            <p>
+                                                                {{ item.info2_sub }}
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                {% for key, item in particle.items %}
-                    {% if experience.section == item.section %}
-                        {% if key % 2 == 0 %}
-                            <li class="note item_right">
-                            {% else %}
-                            <li class="note item_left">
+                                    {% endif %}
+                                {% endfor %}
                             {% endif %}
-                            <h4>{{ item.title }}</h4>
-                            <h5>{{ item.label }}</h5>
-                            <p class="desc">{{ item.desc }}</p>
-                            <span class="date">{{ item.startdate }}
-                                to
-                                {{ item.enddate }}</span>
-                            <span class="arrow fa fa-play"></span>
-                        </li>
-                    {% endif %}
-                {% endfor %}
+                        </div>
+                    {% endfor %}
+                  </section>
 
-            {% endif %}
-        {% endfor %}
-        <!-- Start icon -->
-        <li class="start fa fa-bookmark"></li>
-        <li class="clear"></li>
-    </ul>
-
-{% endblock %}
+            {% endblock %}

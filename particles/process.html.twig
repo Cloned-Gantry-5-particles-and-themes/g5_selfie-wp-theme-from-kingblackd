@@ -1,0 +1,41 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% set seperator = url('gantry-assets://images/selfie-process-line1.png') %}
+    {% set seperator2 = url('gantry-assets://images/selfie-process-line2.png') %}
+
+    <section class="time-line time-line-process {{ particle.class|e }}">
+        <div class="timeline timeline-selfie process-timeline-selfie">
+
+            {% for key, item in particle.items %}
+                {% if key % 2 == 0 %}
+                    <div class="timeline-row item_fade_in selfie-process-left">
+                    {% else %}
+                    <div class="timeline-row item_fade_in selfie-process-right">
+                    {% endif %}
+                    <div class="timeline-icon">
+                        <div class="bg-primary"><img width="170" height="170" src="{{ item.imgage }}" class="attachment-full wp-post-image" alt="{{ item.title }}"/></div>
+                    </div>
+                    <div class="panel timeline-content">
+                        <div class="panel-body">
+                            <span class="selfie-process-icon">
+                                <i style="color:#95a5a6;" class="{{ item.icon }}"></i>
+                            </span>
+                            <h4 style="color:#1abc9c;" class="strong strong-timeline">{{ item.title }}</h4>
+                            <p style="color:#95a5a6;">{{ item.desc }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% if key % 2 == 0 %}
+                    <div class="selfie-process-separator">
+                        <img src="{{ seperator1 }}" alt="seperator"/>
+                    </div>
+                {% else %}
+                    <div class="selfie-process-separator">
+                        <img src="{{ seperator2 }}" alt="seperator"/>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endblock %}
