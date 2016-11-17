@@ -8,7 +8,6 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import "selfie/styles/selfie-style";
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -1854,6 +1853,356 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     -o-transform: none;
     transform: none;
   }
+}
+@font-face {
+  font-family: entypo;
+  src: url('//local.vcard.com/wp-content/themes/selfie/fonts/entypo.woff');
+}
+@font-face {
+  font-family: entyposocial;
+  src: url('//local.vcard.com/wp-content/themes/selfie/fonts/entypo-social.woff');
+}
+@font-face {
+  font-family: fontello;
+  src: url('//local.vcard.com/wp-content/themes/selfie/fonts/fontello.woff');
+}
+@font-face {
+  font-family: fontawesome;
+  src: url('//local.vcard.com/wp-content/themes/selfie/fonts/fontawesome-webfont.woff');
+}
+/* line 8, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.header .heading, input, textarea, .wpb_wrapper, .wpb_wrapper p, .wpb_wrapper p span:not(.fa), .wpb_wrapper span:not(.fa), .wpb_wrapper span p, .ui-widget, body {
+  font-family: Open Sans !important;
+}
+/* line 16, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
+  font-family: Open Sans !important;
+}
+/* line 20, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_accordion_content {
+  font-family: Open Sans !important;
+}
+/* line 24, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+footer {
+  background: #222;
+  border-top: 1px solid #333;
+}
+/* line 26, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.vc_col-sm-3.selfie-footer-phone, .vc_col-sm-3.selfie-footer-phone a, .vc_col-sm-6.selfie-copyrights, .selfie-footer-email, .selfie-footer-email a, .selfie-footer-socials a {
+  color: #999;
+}
+/* line 33, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.selfie-footer-email {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+/* line 38, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.selfie-footer-bottom {
+  border-top: 1px solid #333;
+}
+/* line 42, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.vc_col-sm-3.selfie-footer-phone {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+/* line 47, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.header .box-heading, .number-counters strong {
+  font-family: Open Sans;
+}
+/* line 52, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.counters-item strong, .section-title h1 span {
+  font-family: Open Sans !important;
+}
+/* line 57, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h1 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 36px !important;
+  line-height: 1.5 !important;
+}
+/* line 58, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h2 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 30px !important;
+  line-height: 1.5 !important;
+}
+/* line 59, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h3 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 24px !important;
+  line-height: 1.5 !important;
+}
+/* line 60, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h4 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 18px !important;
+  line-height: 1.5 !important;
+}
+/* line 61, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h5 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+}
+/* line 62, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+h6 {
+  color: #121212;
+  font-family: Open Sans !important;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+}
+/* line 64, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle, #content h4.wpb_toggle {
+  background-color: #f5f5f5 !important;
+  border: 1px solid #ddd !important;
+  color: #333 !important;
+  padding: 10px 15px !important;
+  border-radius: 3px !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+}
+/* line 74, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle.wpb_toggle_title_active {
+  margin-bottom: -1px !important;
+}
+/* line 76, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle_content {
+  border: 1px solid #ddd;
+  border-radius: 0 0 3px 3px;
+  margin-bottom: 5px !important;
+  padding: 15px !important;
+  margin-top: 0 !important;
+}
+/* line 84, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* line 86, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.flickr_badge_image:hover {
+  border-color: #1abc9c !important;
+}
+/* line 88, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.proftheme-widget ul li a.sentient-widget-recent-post-title:hover {
+  color: #1abc9c !important;
+}
+/* line 90, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle:hover, #content h4.wpb_toggle:hover {
+  color: #1abc9c !important;
+}
+/* line 91, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle_title_active:hover, #content h4.wpb_toggle_title_active:hover {
+  color: #1abc9c !important;
+}
+/* line 93, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle, #content h4.wpb_toggle {
+  background-color: #f5f5f5 !important;
+  background-image: none !important;
+  color: #333 !important;
+}
+/* line 94, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_toggle_title_active, #content h4.wpb_toggle_title_active {
+  background-color: #f5f5f5 !important;
+  color: #333 !important;
+  background-image: none !important;
+}
+/* line 96, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_tabs_nav.ui-tabs-nav.clearfix.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active, .portfolio-pagination span:hover, .portfolio-pagination a.page-numbers:hover, .portfolio-pagination .page-numbers:hover, #wp-calendar #today, .contactform .contact-form-send-btn {
+  background: #1abc9c !important;
+}
+/* line 103, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.selfie-contact input[type='submit']:hover {
+  opacity: 0.8;
+}
+/* line 107, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.selfie-contact input[type='submit'] {
+  background-color: transparent;
+  border: 1px solid #1abc9c;
+  color: #9babb3;
+}
+/* line 113, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+#recentcomments .sentient-comments-author a:hover {
+  color: #1abc9c !important;
+}
+/* line 115, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.comment-edit-link, a:hover:not(.sentient-button), .Recent-post-list li:hover, Recent-post-list li a:hover, .comment-post-title, #recentcomments .recentcomments a, #comments #respond h3, .reply a.comment-reply-link:hover, .reply:hover {
+  color: #1abc9c !important;
+}
+/* line 128, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.post .blog-entry .entry-header h4 a:hover, .sidebar .cat-item:hover a, .sidebar .cat-item:hover span, .comment-info span a, ul li.active .d-text-c-h, .d-text-c.active, .sidebar .widget .twitter_widget ul li a, .d-text-c-h.active, .d-text-c-h:hover, .our-team-section .team-member:hover h6, .d-text-c {
+  color: #1abc9c !important;
+}
+/* line 136, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.d-bg-c.active, .d-bg-c-h:hover, .d-bg-c-h.active, .d-bg-c {
+  background: #1abc9c !important;
+}
+/* line 141, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.div-top:hover {
+  border: 2px solid #1abc9c;
+}
+/* line 142, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.div-top:hover i {
+  color: #1abc9c;
+}
+/* line 144, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+a {
+  color: #1abc9c;
+}
+/* line 147, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.process-node.active {
+  border: 2px solid #1abc9c;
+}
+/* line 152, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+footer p a {
+  color: #1abc9c !important;
+}
+/* line 155, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.slider-section .ls-bottom-nav-wrapper .ls-bottom-slidebuttons a:hover, .slider-section .ls-bottom-nav-wrapper .ls-bottom-slidebuttons a.ls-nav-active {
+  background: #1abc9c !important;
+  border: 2px solid #1abc9c !important;
+}
+/* line 161, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.bg-callout {
+  background-color: #1abc9c;
+  background-image: url('//local.vcard.com/wp-content/themes/selfie/images/selfie-internal-pages-new.jpg');
+}
+/* line 163, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+#secondary a.tag:hover, .skillBar li span, .bg3 {
+  background-color: #1abc9c;
+}
+/* line 169, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.timeline .note:hover:after, .browserImage .browserTop, .package-active, .icon-circular:hover i.fa, .icon-box, .dropcap1 {
+  background: #1abc9c;
+}
+/* line 179, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.package-active:after, .icon-box:after {
+  border-top-color: #1abc9c;
+}
+/* line 184, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.icon-circular i.fa {
+  border: 2px solid #1abc9c;
+  color: #1abc9c;
+}
+/* line 189, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.icon-circular:hover i.fa {
+  background: #1abc9c;
+  color: #fff;
+}
+/* line 194, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.packages {
+  border: 1px solid #1abc9c;
+}
+/* line 198, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.profileInfo h5 span, .selfie-profile-details h4 {
+  color: #1abc9c;
+}
+/* line 201, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.bg3 .section-title div span {
+  color: #1abc9c !important;
+}
+/* line 205, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.trans-nav .nav-menu ul.dropdown-menu .current_page_item a {
+  color: #1abc9c !important;
+}
+/* line 207, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header {
+  background: #ccc !important;
+  color: #222;
+  cursor: pointer;
+  display: block;
+  outline: 0 none !important;
+  padding: 0 !important;
+  text-decoration: none;
+  margin: 0 !important;
+}
+/* line 218, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
+  color: #222 !important;
+}
+/* line 224, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+#navigation-sticky.trans-nav {
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+/* line 232, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.darken {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+/* line 236, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.blog-audio-container {
+  background: #1abc9c;
+}
+/* line 237, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.proftheme-widget #searchform i.icon-search:hover {
+  color: #1abc9c !important;
+}
+/* line 238, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.tagcloud a:hover {
+  background: #1abc9c !important;
+  color: #fff !important;
+}
+/* line 240, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.trans-nav .nav-menu ul.dropdown-menu li a:hover, .nav-menu ul li a:hover, .nav-menu ul li.active a:hover, .nav-menu ul li.active a {
+  color: #1abc9c !important;
+}
+/* line 247, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.mobile-nav-button, .selfie-download-cv, .nav-menu ul li a {
+  color: #fff;
+}
+/* line 248, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.darken .mobile-nav-button, .darken .selfie-download-cv, .darken .nav-menu ul li a {
+  color: #999;
+}
+@media (max-width: 992px) {
+  /* line 251, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+  .trans-nav div.nav-menu ul.nav {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+/* line 254, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.trans-nav .nav-menu ul.dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* line 258, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+article .post-excerpt a.btn:hover {
+  color: #1abc9c !important;
+}
+/* line 260, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.portfolio-items .controls a:hover i, .portfolio-items .controls a i:hover {
+  background: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+/* line 263, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.timeline-icon .bg-primary {
+  background: #1abc9c;
+}
+/* line 264, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.timeline-time {
+  color: #1abc9c;
+}
+/* line 266, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.job-ribbon {
+  background: #1abc9c;
+}
+/* line 267, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.job-ribbon::before, .job-ribbon::after {
+  border-color: #1abc9c transparent;
+}
+/* line 269, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.portfolio-items .item-info {
+  border: 2px solid #1abc9c;
+}
+/* line 273, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
+.trans-nav .nav-menu ul li.active li a, .trans-nav .nav-menu ul.dropdown-menu li a {
+  color: #fff !important;
 }
 /* line 1, wp-content/themes/g5_selfie/scss/selfie/sections/_pagesurround.scss */
 #g-page-surround {

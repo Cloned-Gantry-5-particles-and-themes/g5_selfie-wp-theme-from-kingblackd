@@ -18,6 +18,7 @@ layout:
   /features/:
     -
       - custom-3119
+  /resume/: { }
   /protfolio/: { }
   /utility/:
     -

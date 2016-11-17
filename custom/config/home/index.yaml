@@ -1,5 +1,5 @@
 name: home
-timestamp: 1479313166
+timestamp: 1479412308
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -10,6 +10,7 @@ sections:
   navigation: Navigation
   intro: Intro
   features: Features
+  resume: Resume
   protfolio: Protfolio
   utility: Utility
   above: Above
@@ -23,28 +24,48 @@ sections:
 particles:
   logo:
     logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
   menu:
     menu-6409: Menu
   social:
     social-3171: Social
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
+    owlcarousel-7166: 'Owl Carousel'
+  infocard:
+    infocard-6612: 'Intro Cards'
+    infocard-4698: 'Intro Cards'
+    infocard-5797: 'Intro Cards'
+  sectiontitle:
+    sectiontitle-7684: 'Section Title'
+    sectiontitle-6211: 'Section Title'
+    sectiontitle-3112: 'Section Title'
+    sectiontitle-8813: 'Section Title'
+    sectiontitle-2967: 'Section Title'
+    sectiontitle-4237: 'Section Title'
+  profile:
+    profile-6383: 'Profile Image'
+  bio-info:
+    bio-info-7430: 'Bio Info'
+  bio:
+    bio-4636: 'Mini Bio'
+  cv:
+    cv-9087: Resume
+  portfolio:
+    portfolio-6995: Portfolio
+  process:
+    process-3920: Process
+  timeline:
+    timeline-4855: Timeline
   custom:
-    custom-5807: Intro
-    custom-3119: Features
-    custom-7658: 'Customer Testimonials'
     custom-6355: 'Develop CMS themes quickly'
-  contenttabs:
-    contenttabs-3854: 'Content Tabs'
-  contentcubes:
-    contentcubes-7850: 'Content Cubes'
-  copyright:
-    copyright-1736: Copyright
-  horizontalmenu:
-    horizontalmenu-9034: 'Horizontal Menu'
+    custom-2771: 'Custom HTML'
+    custom-5682: 'Custom HTML'
+    custom-1125: 'Custom HTML'
+    custom-9450: 'Custom HTML'
   totop:
     totop-8670: 'To Top'
+  copyright:
+    copyright-1736: Copyright
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit: {  }
