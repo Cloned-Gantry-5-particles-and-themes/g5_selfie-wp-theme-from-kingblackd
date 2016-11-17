@@ -1,0 +1,15 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% set image = url(particle.image) %}
+
+    <div class="profile {{ particle.class|e }}">
+      {% if image %}
+          <img src="{{ image }}" alt="{{ particle.name }}" />
+      {% endif %}
+      <div class="name-title">
+      <h2>{{ particle.title }}</h2>
+      <p>{{ particle.desc }}</p>
+      </div>
+		</div>
+{% endblock %}

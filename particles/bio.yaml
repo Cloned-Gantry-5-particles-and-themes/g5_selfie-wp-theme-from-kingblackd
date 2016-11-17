@@ -1,0 +1,39 @@
+name: Mini Bio
+description: Some text about yourself.
+type: particle
+icon: fa-user
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: Set a specific CSS class for custom styling.
+
+    name:
+      type: input.text
+      label: 'Name'
+      description: Type your name.
+      placeholder: This is John Doe
+
+    subtitle:
+      type: input.text
+      label: 'Sub Title'
+      description: Add a sub title.
+      placeholder: Creative and Professional Designer...
+
+    text:
+      type: textarea.textarea
+      label: Text
+      description: Customize the text field.
+
+    image:
+      type: input.imagepicker
+      label: Signature
+      description: add your signature.

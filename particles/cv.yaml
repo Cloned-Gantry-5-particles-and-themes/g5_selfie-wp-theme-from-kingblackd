@@ -1,0 +1,61 @@
+name: Resume
+description: Resume DL.
+type: particle
+icon: fa fa-download
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    label:
+      type: input.text
+      label: 'Pre Text'
+      description: Enter a precidence.
+      placeholder: 'I am ready for any Project,'
+
+    title:
+      type: input.text
+      label: 'Title'
+      description: Enter a your job title.
+      placeholder: 'Contact Me?'
+
+    linktxt:
+      type: input.text
+      label: 'Contact Text'
+      description: Enter the Text.
+      placeholder: 'Hire Me'
+
+    link:
+      type: input.text
+      label: Contact Link
+      description: Specify the contact link.
+      placeholder: '/'
+
+    linktxt2:
+      type: input.text
+      label: 'Resume Text'
+      description: Customize the DL link.
+      default: 'Download CV'
+      placeholder: 'Download Resume'
+
+    icon:
+      type: input.icon
+      label: Resume Icon
+      description: Input the icon.
+      default: 'fa fa-arrow-down'
+
+    location:
+          type: input.filepicker
+          label: File Location
+          icon: fa fa-file-word-o
+          placeholder: 'your resume file'
+          filter: '\.(pdf|doc|docx|rtf)$'

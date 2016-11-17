@@ -1,0 +1,25 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+  <div class="facts {{ particle.class|e }}">
+    <!-- some number facts -->
+    <div class="counters-item">
+            <div class="counters-item-number">
+                        {% if item.icon %}
+                            <i class="{{ item.icon }}"></i>
+                        {% endif %}
+                        {% if item.value %}
+                            <strong data-to="{{ item.value|e }}">0</strong>
+                        {% endif %}
+                        <div class="counters-item-text">
+                        {% if item.label %}
+                            <p>{{ item.label|e }}</p>
+                        {% endif %}
+                    </div>
+            </div>
+    </div>
+    <!-- ./some number facts -->
+  </div>
+
+{% endblock %}

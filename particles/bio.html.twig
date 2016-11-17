@@ -1,0 +1,25 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <!-- some text about yourself -->
+    <div class="bio {{ particle.class|e }}">
+        {% if particle.name %}
+            <h2 class="selfie-about-title">This is {{ particle.name }}</h2>
+        {% endif %}
+        {% if particle.subtitle %}
+            <h4 class="selfie-about-subtitle">{{ particle.subtitle }}</h4>
+        {% endif %}
+        {% if particle.text %}
+            <div class="selfie-about-text">
+                {{ particle.text|raw }}
+            </div>
+        {% endif %}
+        {% if image %}
+            <p class="align-right">
+                <img src="{{ url(particle.image) }}" alt="{{ particle.name }}"/>
+            </p>
+        {% endif %}
+    </div>
+    <!-- ./some text about yourself -->
+{% endblock %}

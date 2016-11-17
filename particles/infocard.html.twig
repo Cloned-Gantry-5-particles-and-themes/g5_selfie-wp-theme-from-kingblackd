@@ -1,0 +1,14 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <div class="card  {{ particle.class|e }}">
+        <div class="card-block">
+          {% if particle.display in ['icons'] %}<i class="{{ particle.icon }}"></i>{% endif %}
+          {% if particle.display in ['img'] %}<img src="{{ particle.image }}" alt="{{ particle.title }}" />{% endif %}
+            <h4 class="card-title">{{ particle.title }}</h4>
+            <p class="card-text">{{ pagerticle.desc }}</p>
+        </div>
+    </div>
+
+{% endblock %}

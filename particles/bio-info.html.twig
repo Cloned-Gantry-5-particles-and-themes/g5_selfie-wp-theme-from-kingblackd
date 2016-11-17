@@ -1,0 +1,66 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+  <div class="{{ particle.class|e }}">
+    <ul class="fa-ul">
+        {% if particle.dob %}
+            <li>
+                <i class="fa fa-li fa-calendar"></i>
+                <strong>birthdate: </strong>{{ particle.dob }}
+						</li>
+        {% endif %}
+        {% if particle.phone %}
+            <li>
+                <i class="fa fa-li fa-mobile"></i>
+                <strong>phone: </strong>{{ particle.phone }}
+						</li>
+        {% endif %}
+        {% if particle.email %}
+            <li>
+                <i class="fa fa-li fa-envelope-o"></i>
+                <strong>email: </strong>{{ particle.email }}
+						</li>
+        {% endif %}
+        {% if particle.web %}
+        <li>
+          <i class="fa fa-li fa-globe"></i>
+          <strong>website: </strong> {{ particle.web }}
+        </li>
+{% endif %}
+        {% if particle.address %}
+            <li>
+                <i class="fa fa-li fa-home"></i>
+                <strong>adress: </strong>{{ particle.address }}
+						</li>
+        {% endif %}
+    </ul>
+
+    <div class="g-social">
+        {% for item in particle.social %}
+            <a target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" title="{{ item.text|e }}">
+                {% if particle.display in ['both', 'icons_only'] %}<span class="{{ item.icon|e }}"></span>{% endif %}
+                {% if particle.display in ['both', 'text_only'] %}<span class="g-social-text">{{ item.text|e }}</span>{% endif %}
+            </a>
+        {% endfor %}
+    </div>
+
+    <!-- Skill Section -->
+    <div class="skillBar-container">
+        <ul class="skillBar">
+            {% for skill in skills.items %}
+                <li>
+                    <div class="skillBg">
+                        <span data-width="{{ skill.percent }}">
+                            <strong>{{ skill.title }}
+                                {{ skill.percent }}%</strong>
+                        </span>
+                    </div>
+                </li>
+            {% endfor %}
+        </div>
+        <!-- skills end -->
+
+  </div>
+
+{% endblock %}

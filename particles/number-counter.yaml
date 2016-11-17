@@ -1,0 +1,40 @@
+name: Number Counter
+description: Display a number counter.
+type: particle
+icon: fa-fast-forward
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    items:
+      type: collection.list
+      array: true
+      label: Content Items
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .icon:
+          type: input.icon
+          label: Icon
+          description: Input the icon.
+          default: ''
+        .label:
+          type: input.text
+          label: Label
+          description: Enter the label that appears on the bottom.
+        .value:
+          type: input.number
+          label: Value
+          description: Enter the value of the label.

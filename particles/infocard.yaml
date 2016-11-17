@@ -1,0 +1,49 @@
+name: Intro Cards
+description: Display an Intro Card.
+type: particle
+icon: fa-lightbulb-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    title:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: 'Enter title'
+
+    desc:
+      type: textarea.textarea
+      label: Description
+      description: Customize the description.
+      placeholder: Enter short description
+
+    display:
+      type: input.radios
+      label: Display
+      description: Icon or Image?
+      default: icon
+      options:
+        icons: Icons
+        img: Image
+
+    icon:
+      type: input.icon
+      label: Card Icon
+      description: Input the icon.
+      default: 'fa fa-lightbulb-o'
+
+    image:
+      type: input.imagepicker
+      label: Card Image
+      description: Select desired image.
