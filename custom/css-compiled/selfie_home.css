@@ -76,13 +76,13 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.eot#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.woff2') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.woff') format("woff"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.ttf') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.svg#rockettheme-apps') format("svg");
+  src: url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.eot?582c854f#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.woff2?582c854f') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.woff?582c854f') format("woff"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.ttf?582c854f') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/rockettheme-apps/rockettheme-apps.svg?582c854f#rockettheme-apps') format("svg");
 }
 @font-face {
   font-family: 'linea-basic-10';
   font-style: normal;
   font-weight: normal;
-  src: url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.eot?582cf135#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_selfie/custom/fonts/linea-basic-10/linea-basic-10.woff2') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.woff?582cf135') format("woff"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.ttf?582cf135') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.svg?582cf135#linea-basic-10') format("svg");
+  src: url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.eot?582c8321#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_selfie/custom/fonts/linea-basic-10/linea-basic-10.woff2') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.woff?582c8321') format("woff"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.ttf?582c8321') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_selfie/fonts/linea-basic-10/linea-basic-10.svg?582c8321#linea-basic-10') format("svg");
 }
 /* line 5, wp-content/themes/g5_selfie/scss/selfie/styles/_fonts.scss */
 i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -1906,7 +1906,7 @@ blockquote {
   top: 50%;
   left: 50%;
   margin: -40px 0 0 -40px;
-  background: url('//local.vcard.com/wp-content/uploads/images/preloader.gif?582cf135');
+  background: url('//local.vcard.com/wp-content/uploads/images/preloader.gif');
 }
 /* line 113, wp-content/themes/g5_selfie/scss/selfie/styles/_selfie-style.scss */
 .section-content {
