@@ -31,7 +31,7 @@ form:
           description: Customize the section titles.
           placeholder: Work History
         .icon:
-          type: input.iconpicker
+          type: input.icon
           label: Icon
           description: Select desired icon for the section.
 
@@ -50,7 +50,7 @@ form:
           description: Input a section title from Section Items.
           placeholder: Work History
         .icon:
-          type: input.iconpicker
+          type: input.icon
           label: Icon
           description: Select desired icon for the section.
         .title:
@@ -71,6 +71,22 @@ form:
           label: Description
           description: Customize the description.
           placeholder: Enter the description
+        .info1:
+          type: input.text
+          label: 'Info Title'
+          placeholder: Latest Project:
+        .info1_sub:
+          type: input.text
+          label: 'Subtitle'
+          placeholder: Signup Module Coding
+        .info2:
+          type: input.text
+          label: 'Secondary Info'
+          placeholder: Recent Training's:
+        .info2_sub:
+          type: input.text
+          label: 'Secondary Subtitle'
+          placeholder: PMP, ITIL & CCNA
         .date:
           type: input.text
           label: Date

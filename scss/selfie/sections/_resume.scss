@@ -1,0 +1,25 @@
+#g-resume {
+    background: $resume-background;
+    color: $resume-text-color;
+    padding: $section-padding 0;
+
+    @if $resume-background-image {
+  		background: url($resume-background-image) center center no-repeat;
+  		background-size: cover;
+  	}
+
+    h1 {
+      color: $resume-text-color;
+    }
+
+    .accent strong {
+      color: $accent-color-1;
+    }
+}
+
+@media print {
+    #g-portfolio {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

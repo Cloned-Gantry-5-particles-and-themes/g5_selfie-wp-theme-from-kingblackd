@@ -41,6 +41,7 @@
 
 // Demo Styling
 @import "selfie/styles/selfie-style";
+@import "selfie/styles/style";
 
 //-------------------------------------------
 
@@ -63,6 +64,12 @@
 
 // Features
 @import "selfie/sections/features";
+
+// Resume
+@import "selfie/sections/resume";
+
+// Portfolio
+@import "selfie/sections/portfolio";
 
 // Utility
 @import "selfie/sections/utility";

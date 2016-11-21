@@ -1,6 +1,5 @@
 %item-container {
     font-size: $core-font-size;
-    font-weight: bold;
     padding: $content-padding/2 0;
     white-space: normal;
     @include word-wrap(break-word);
@@ -14,7 +13,9 @@
 
 // Main Nav
 .g-main-nav {
+  float: right;
     z-index: 20;
+    margin-right: 53px;
 
     .g-standard {
         .g-dropdown {
@@ -79,7 +80,6 @@
                 line-height: normal;
                 @extend %item-container;
                 font-size: $core-font-size - 0.15;
-                font-weight: bold;
                 > .g-menu-item-content {
                     word-break: normal;
                     vertical-align: top;

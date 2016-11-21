@@ -1,7 +1,7 @@
-name: Profile Image
-description: A picture of your beutiful self.
+name: My Profile
+description: Info about your beutiful self.
 type: particle
-icon: fa-file-image-o
+icon: fa-id-card-o
 
 form:
   fields:
@@ -21,13 +21,50 @@ form:
       label: Image
       description: Select desired logo image.
 
+    name:
+      type: input.text
+      label: Your name
+      description: Enter your name...
+      placeholder: John Doe
+
     title:
       type: input.text
       label: Job Title
       description: Input logo description text.
+      placeholder: Designer / Photographer
 
     desc:
       type: textarea.textarea
       label: Description
       description: Customize the description.
       placeholder: Enter short description
+
+    dob:
+      type: input.date
+      label: Birthdate
+      description: When were you born?
+      placeholder: Enter your Birthdate
+
+    phone:
+      type: input.tel
+      label: Phone
+      description: Your phone number.
+      placeholder: Enter your phone number
+
+    email:
+      type: input.email
+      label: Email
+      description: Your Email.
+      placeholder: Enter your Email
+
+    web:
+      type: input.text
+      label: Website
+      description: Your website url.
+      placeholder: Enter your Website URL
+
+    address:
+      type: input.text
+      label: Address
+      description: Your address.
+      placeholder: Enter your address

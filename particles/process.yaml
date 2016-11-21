@@ -39,6 +39,6 @@ form:
           label: Image
           description: Select desired image.
         .icon:
-          type: input.iconpicker
+          type: input.icon
           label: Icon
           description: Select desired icon.

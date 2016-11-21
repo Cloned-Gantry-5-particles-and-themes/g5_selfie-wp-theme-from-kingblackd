@@ -12,7 +12,7 @@ preset1:
       color-1: '#4db2b3'
       color-2: '#8f4dae'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#312f38'
@@ -64,7 +64,7 @@ preset2:
       color-1: '#b34b4b'
       color-2: '#4cad9e'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#312f38'
@@ -116,7 +116,7 @@ preset3:
       color-1: '#c06c84'
       color-2: '#355c7d'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#312f38'
@@ -168,7 +168,7 @@ preset4:
       color-1: '#e84a5f'
       color-2: '#2a363b'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#2a363b'
@@ -220,7 +220,7 @@ preset5:
       color-1: '#a8a7a7'
       color-2: '#474747'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#474747'
@@ -272,7 +272,7 @@ preset6:
       color-1: '#a8a7a7'
       color-2: '#474747'
     font:
-      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-default: 'Open Sans, Helvetica, Tahoma, Geneva, Arial, sans-serif'
       family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     navigation:
       background: '#474747'

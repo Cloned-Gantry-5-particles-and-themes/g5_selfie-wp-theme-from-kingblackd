@@ -1,0 +1,19 @@
+name: Resume Styles
+description: Resume section styles for the Selfie theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#312f38"
+    background-image:
+      type: input.imagepicker
+      label: Background Image
+      default: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/11/selfie-team.jpg?id=1195'
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#eceeef"

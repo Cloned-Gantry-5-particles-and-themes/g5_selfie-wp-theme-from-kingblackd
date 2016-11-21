@@ -3,16 +3,17 @@
 {% block particle %}
 
     <!-- Section Title -->
-		<p class="selfie-submaintitle9babb3">{{ particle.label }}</p>
+		<p class="selfie-submaintitle">{{ particle.label }}</p>
 		<div class="section-title {{ particle.class|e }}">
       {% if particle.icon %}
-  			<div>
           <i class="{{ particle.icon }}"></i>
-  			</div>
       {% endif %}
       {% if particle.title %}
-		   <h1>{{ particle.title }}</h1>
+		   		<h1>{{ particle.title }}</h1>
       {% endif %}
+			{% if particle.desc %}
+					<p class="selfie-subtitle-text">{{ particle.desc|e('html') }}</p>
+			{% endif %}
 		</div>
 
 {% endblock %}

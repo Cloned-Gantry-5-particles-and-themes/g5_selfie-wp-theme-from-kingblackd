@@ -1,0 +1,59 @@
+name: Skills
+description: Display stats and skills.
+type: particle
+icon: fa-star-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    stats:
+      type: collection.list
+      array: true
+      label: stat Items
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .icon:
+          type: input.icon
+          label: Icon
+          description: Input the icon.
+          default: ''
+        .label:
+          type: input.text
+          label: Label
+          description: Enter the label that appears on the bottom.
+        .value:
+          type: input.number
+          label: Value
+          description: Enter the value of the label.
+
+    skills:
+      type: collection.list
+      array: true
+      label: Skills
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .title:
+          type: input.text
+          label: Title
+          description: Customize the title text.
+          placeholder: 'Enter title'
+        .percent:
+          type: input.number
+          label: Percentage
+          description: Enter the value.

@@ -2,6 +2,10 @@
     background: $utility-background;
     color: $utility-text-color;
     padding: $section-padding 0;
+
+    h1 {
+      color: $utility-text-color;
+    }
 }
 
 @media print {

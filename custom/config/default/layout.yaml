@@ -12,6 +12,8 @@ layout:
   /header/: {  }
   /intro/: {  }
   /features/: {  }
+  /resume/: { }
+  /portfolio/: { }
   /utility/: {  }
   /above/: {  }
   /testimonials/: {  }

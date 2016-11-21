@@ -1,7 +1,11 @@
 #g-intro {
     background: $intro-background;
     color: $intro-text-color;
-    padding: $section-padding 0;
+    //padding: $section-padding 0;
+
+    .border-right .g-content.g-particle, .border-left .g-content.g-particle {
+      margin: 0;
+    }
 }
 
 @media print {

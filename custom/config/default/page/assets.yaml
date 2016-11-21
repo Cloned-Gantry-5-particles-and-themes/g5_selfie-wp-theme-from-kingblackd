@@ -1,0 +1,123 @@
+favicon: ''
+touchicon: ''
+css: {  }
+javascript:
+  -
+    location: 'gantry-assets://js/jquery-1.10.2.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: Jq
+  -
+    location: 'gantry-assets://js/scrollspy.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scrollspy
+  -
+    location: 'gantry-assets://js/jquery.visible.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: visible
+  -
+    location: 'gantry-assets://js/prof.common.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: prof
+  -
+    location: 'gantry-assets://js/scripts-top.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scripts-top
+  -
+    location: 'gantry-assets://js/scripts-bottom.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scripts-bottom
+  -
+    location: 'gantry-assets://js/jquery.isotope.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: isotope
+  -
+    location: 'gantry-assets://js/jquery.sticky.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: sticky
+  -
+    location: 'gantry-assets://js/jquery.nicescroll.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: nicescroll
+  -
+    location: 'gantry-assets://js/jquery.validate.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: validate
+  -
+    location: 'gantry-assets://js/script.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: scripts
+  -
+    location: 'gantry-assets://js/numinate.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: numinate
+  -
+    location: 'gantry-assets://js/magnific-popup.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: magnific
+  -
+    location: 'gantry-assets://js/jquery.easy-pie-chart.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: piechart
+  -
+    location: 'gantry-assets://js/modernizr-2.6.2-respond-1.1.0.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: modernizr
+  -
+    location: 'gantry-assets://js/respond.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: respond
+  -
+    location: 'gantry-assets://js/jquery.utilcarousel.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: 'New item'

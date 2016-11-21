@@ -11,25 +11,31 @@ form:
       description: Globally enable icon menu particles.
       default: true
 
-    title:
-      type: input.text
-      label: First Half
-      description: First Half.
-      placeholder: 'Enter First Half'
-
-    label:
-      type: input.text
-      label: Second Half
-      description: Second Half.
-      placeholder: 'Enter Second Half'
-
-    .icon:
-      type: input.icon
-      label: Icon
-      description: Input the icon.
-      default: ''
-
     class:
       type: input.selectize
       label: CSS Classes
       description: CSS class name for the particle.
+
+    icon:
+      type: input.icon
+      label: Icon
+      description: Input the icon.
+      default: 'fa fa-coffee fa-2x'
+
+    title:
+      type: input.text
+      label: Section Title
+      description: Customize the title.
+      placeholder: 'My rescent readings'
+
+    label:
+      type: input.text
+      label: Subtitle
+      description: Customize the Subtitle.
+      placeholder: 'Pride & Joy'
+
+    desc:
+      type: textarea.textarea
+      label: Description
+      description: Customize the description.
+      placeholder: Enter short description

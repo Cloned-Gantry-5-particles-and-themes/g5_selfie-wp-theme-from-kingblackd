@@ -2,6 +2,10 @@
     background: $features-background;
     color: $features-text-color;
     padding: $section-padding 0;
+
+    .selfie-profile-details img {
+      margin-bottom: 0;
+    }
 }
 
 @media print {

@@ -1,0 +1,50 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <div class="{{ particle.class|e }}">
+        {% if particle.stats %}
+            <div class="g-grid">
+                <!-- some number facts -->
+                {% for item in particle.stats %}
+                    <div class="g-block size-50">
+                        <div class="counters-item">
+                            <div class="counters-item-number">
+                                {% if item.icon %}
+                                    <i class="{{ item.icon }}"></i>
+                                {% endif %}
+                                {% if item.value %}
+                                    <strong data-to="{{ item.value|e }}">0</strong>
+                                {% endif %}
+                                <div class="counters-item-text">
+                                    {% if item.label %}
+                                        <p>{{ item.label|e }}</p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                <!-- ./some number facts -->
+            </div>
+        {% endif %}
+
+
+            <!-- Skill Section -->
+            <div class="skillBar-container">
+                <ul class="skillBar">
+                    {% for skill in particle.skills %}
+                        <li>
+                          <strong>{{ skill.title }} {{ skill.percent }}%</strong>
+                            <div class="skillBg">
+                                <span data-width="{{ skill.percent }}"></span>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!-- skills end -->
+
+    </div>
+
+{% endblock %}

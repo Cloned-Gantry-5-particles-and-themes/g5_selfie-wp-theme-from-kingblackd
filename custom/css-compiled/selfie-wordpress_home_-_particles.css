@@ -136,7 +136,7 @@ legend small {
 /* line 57, wp-content/themes/g5_selfie/scss/selfie-wordpress/_core.scss */
 /* line 58, wp-content/themes/g5_selfie/scss/selfie-wordpress/_core.scss */
 #g-page-surround .search-form input.search-field {
-  color: #424753;
+  color: #999;
 }
 /* line 2, wp-content/themes/g5_selfie/scss/selfie-wordpress/_pagination.scss */
 /* line 4, wp-content/themes/g5_selfie/scss/selfie-wordpress/_pagination.scss */
@@ -229,7 +229,7 @@ legend small {
 #g-page-surround .entry-meta > div[class^="meta-"] {
   display: inline-block;
   margin: 0;
-  font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 0.85rem;
   line-height: 1.35;
@@ -311,16 +311,16 @@ legend small {
 }
 /* line 63, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta .author-name a:hover {
-  color: #4db2b3;
+  color: #1abc9c;
 }
 /* line 69, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 /* line 70, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a {
-  color: #424753;
+  color: #999;
 }
 /* line 72, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-author .author-meta time a:hover, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link a:hover {
-  color: #4db2b3;
+  color: #1abc9c;
 }
 @media only all and (max-width: 47.938rem) {
   #comments ol.commentlist li.comment .comment-author .author-meta time, #comments ol.commentlist li.comment .comment-author .author-meta .edit-link {
@@ -333,11 +333,11 @@ legend small {
 /* line 87, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 /* line 88, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a {
-  color: #4db2b3;
+  color: #1abc9c;
 }
 /* line 91, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment.bypostauthor > .comment-body > .comment-author .author-name a:hover {
-  color: #424753;
+  color: #999;
 }
 /* line 100, wp-content/themes/g5_selfie/scss/selfie-wordpress/_comments.scss */
 #comments ol.commentlist li.comment .comment-content {
@@ -412,9 +412,9 @@ legend small {
 /* line 32, wp-content/themes/g5_selfie/scss/selfie-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a {
   display: inline-block;
-  font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-family: "Open Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   border-radius: 0.25rem;
-  background: #4db2b3;
+  background: #1abc9c;
   color: #fff;
   padding: 5px 8px;
   margin: 0 4px 8px 0;
@@ -428,7 +428,7 @@ legend small {
 }
 /* line 48, wp-content/themes/g5_selfie/scss/selfie-wordpress/_widgets.scss */
 .widget.widget_tag_cloud a:hover {
-  background: #3d8f90;
+  background: #148f77;
   color: #fff;
 }
 /* line 56, wp-content/themes/g5_selfie/scss/selfie-wordpress/_widgets.scss */

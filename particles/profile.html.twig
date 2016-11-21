@@ -3,13 +3,47 @@
 {% block particle %}
     {% set image = url(particle.image) %}
 
-    <div class="profile {{ particle.class|e }}">
-      {% if image %}
-          <img src="{{ image }}" alt="{{ particle.name }}" />
-      {% endif %}
-      <div class="name-title">
-      <h2>{{ particle.title }}</h2>
-      <p>{{ particle.desc }}</p>
-      </div>
-		</div>
+    <h4 class="selfie-myprofile-title">My Profile</h4>
+
+    <div class="selfie-profile-details item_bottom {{ particle.class|e }}" style="opacity: 1; bottom: 0px;">
+        {% if image %}
+            <img src="{{ image }}" alt="{{ particle.name }}"/>
+        {% endif %}
+        <h3>{{ particle.name }}</h3>
+        <h4>{{ particle.title }}</h4>
+        <div class="profileInfo">
+            <p>{{ particle.desc }}</p>
+            {% if particle.dob %}
+                <h5>
+                    <span>
+                        <i class="fa fa-calendar"></i>Birthdate:
+                    </span>{{ particle.dob }}</h5>
+            {% endif %}
+            {% if particle.phone %}
+                <h5>
+                    <span>
+                        <i class="fa fa-phone"></i>Phone:
+                    </span>{{ particle.phone }}</h5>
+            {% endif %}
+            {% if particle.email %}
+                <h5>
+                    <span>
+                        <i class="fa fa-envelope-o"></i>Email:
+                    </span>{{ particle.email }}</h5>
+            {% endif %}
+            {% if particle.address %}
+                <h5>
+                    <span>
+                        <i class="fa fa-home"></i>Adress:
+                    </span>{{ particle.address }}</h5>
+            {% endif %}
+            {% if particle.web %}
+                <h5>
+                    <span>
+                        <i class="fa fa-globe"></i>Web:
+                    </span>
+                    {{ particle.web }}</h5>
+            {% endif %}
+        </div>
+    </div>
 {% endblock %}

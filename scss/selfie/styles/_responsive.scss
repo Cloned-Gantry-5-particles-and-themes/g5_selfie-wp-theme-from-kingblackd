@@ -24,6 +24,9 @@ Author URI: http://themeforest.net/user/thethemelab
 #home .section-title h1 {
 	font-size: 32px;
 }
+.time-line::after {
+    left: 28px;
+	}
 .portfolio-items article {
 	width: 49.4%;
 }

@@ -6,9 +6,8 @@ preset:
 layout:
   /navigation/:
     -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
+      - 'logo-9608 25'
+      - 'menu-6409 75'
   /header/:
     -
       - owlcarousel-2455
@@ -21,9 +20,9 @@ layout:
     -
       - sectiontitle-7684
     -
-      - 'profile-6383 33.3'
-      - 'bio-info-7430 33.3'
-      - 'bio-4636 33.3'
+      - 'profile-6209 25'
+      - 'skills-8030 25'
+      - 'bio-4636 50'
   /resume/:
     -
       - cv-9087
@@ -49,7 +48,7 @@ layout:
       - owlcarousel-7166
   /expanded/:
     -
-      - custom-6355
+      - custom-8324
   /container-main/:
     -
       -
@@ -57,7 +56,10 @@ layout:
           -
             - sectiontitle-4237
           -
-            - custom-2771
+            - 'selfie-circle-widget-9207 25'
+            - 'selfie-circle-widget-1947 25'
+            - 'selfie-circle-widget-7655 25'
+            - 'selfie-circle-widget-2478 25'
           -
             - custom-5682
       -
@@ -132,29 +134,30 @@ structure:
 content:
   logo-9608:
     title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
+    attributes:
+      link: '1'
+      text: 'John Doe'
+      class: ''
   owlcarousel-2455:
     title: 'Owl Carousel'
     attributes:
+      full: '1'
       items:
         -
-          image: 'gantry-media://header/img01.jpg'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/09/selfie-slider-two.jpg'
           title: 'Selfie is here!'
           desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
-          buttonicon: 'fa fa-rocket'
-          buttonclass: button-outline
+          buttonclass: ''
           name: 'Item 1'
         -
-          image: 'gantry-media://header/img02.jpg'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/09/selfie-slider-two.jpg'
           title: 'Selfie is Gantry powered!'
           desc: 'Selfie is based on the powerful Gantry framework.'
           link: 'http://gantry.org/downloads'
           linktext: 'Download Now'
-          buttonclass: button-outline
+          buttonclass: ''
           name: 'Item 2'
   infocard-6612:
     title: 'Intro Cards'
@@ -163,6 +166,9 @@ content:
       desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
       display: img
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_notice.png'
+    block:
+      class: border-left
+      variations: center
   infocard-4698:
     title: 'Intro Cards'
     attributes:
@@ -170,6 +176,9 @@ content:
       desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
       display: img
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_bulb.png'
+    block:
+      class: 'border-left border-right'
+      variations: center
   infocard-5797:
     title: 'Intro Cards'
     attributes:
@@ -177,56 +186,92 @@ content:
       desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
       display: img
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_award.png'
+    block:
+      class: border-right
+      variations: center
   sectiontitle-7684:
     title: 'Section Title'
     attributes:
-      title: 'Myself & More'
-      label: 'KNOW ABOUT ME'
       icon: 'fa fa-heart-o fa-2x'
-  profile-6383:
-    title: 'Profile Image'
+      title: 'KNOW ABOUT ME'
+      label: 'Myself & More'
+    block:
+      variations: center
+  profile-6209:
+    title: 'My Profile'
     attributes:
-      image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/11/man.jpg'
+      image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/11/selfe-profile-new-one.jpg'
+      name: 'John Doe Smith'
       title: 'Designer / Photographer'
-      desc: 'Hey, I''m a Creative Photographer and Designer from the United States, NY. I hold a master degree in Computer Design from NY University molestias fuga doloremin.'
-  bio-info-7430:
-    title: 'Bio Info'
+      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore duis aute irure dolor in reprehende in voluptate velit esse.\n\n"
+      dob: '1980-04-25'
+      phone: '+61 854 895 57 Ext. 123'
+      email: john@johndoesmith.com
+      web: 'http://www.johndoesmith.com'
+      address: ''
+    block:
+      class: 'nomarginleft nomarginright'
+  skills-8030:
     attributes:
-      dob: '1988-06-15'
-      phone: 416-123-4567
-      email: selfie@msn.ca
-      web: 'http://www.example.com'
-      address: '12 Segun Bagicha, 10th Floor, Melbourne21118 Australia'
-      social: '1'
-      target: _blank
-      display: both
+      stats:
+        -
+          icon: 'fa fa-apple fa-2x'
+          label: 'Frequent Update'
+          value: '627'
+          name: 'New item'
+        -
+          icon: 'fa fa-apple fa-2x'
+          label: 'Sleeping Hours'
+          value: '627'
+          name: 'New item'
+        -
+          icon: 'fa fa-apple fa-2x'
+          label: 'Lines of Code'
+          value: '627'
+          name: 'New item'
+        -
+          icon: 'fa fa-apple fa-2x'
+          label: 'Happy Customers'
+          value: '627'
+          name: 'New item'
       skills:
         -
           title: PHP
           percent: '75'
-          name: 'New item'
+          name: PHP
         -
-          title: java
-          percent: '67'
-          name: 'New item'
-        -
-          title: 'html / css'
+          title: 'Html / css'
           percent: '80'
-          name: 'New item'
+          name: Html
         -
-          title: wordpress
+          title: WordPress
           percent: '95'
-          name: 'New item'
+          name: WP
+        -
+          title: photoshop
+          percent: '65'
+          name: PS
+        -
+          title: photoshop
+          percent: '56'
+          name: PS2
+        -
+          title: photoshop
+          percent: '90'
+          name: 'PS#'
+    block:
+      class: 'nomarginleft nomarginright'
   bio-4636:
     title: 'Mini Bio'
     attributes:
       name: 'John Smith'
       subtitle: 'Creative and Professional Designer who loves everything around web design & programming.'
-      text: "<p>Placeat dolorum expedita modi corporis molestias fuga fugaingas consectetur pariatur dolorem neque deserunt.</p>\n<p>Placeat dolorum expedita modi corporis molestias fuga doloremin consectetur pariatur dolorem.</p>"
+      text: "<p>Placeat dolorum expedita modi corporis molestias fuga fugaingas consectetur pariatur dolorem neque deserunt Placeat dolorum expedita modi corporis molestias fuga fugaingas consectetur pariatur dolorem neque deserunt Placeat dolorum expedita modi corporis molestias fuga doloremin consectetur pariatur dolorem.</p>\n<p>Placeat dolorum expedita modi corporis molestias fuga doloremin consectetur pariatur dolorem.</p>"
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_signature_new.png'
   cv-9087:
     title: Resume
     attributes:
+      class: accent
       label: 'I am ready for any Project,'
       title: 'Contact Me?'
       linktxt: 'Hire Me'
@@ -234,34 +279,123 @@ content:
       linktxt2: 'Download CV'
       icon: 'fa fa-arrow-down'
       location: 'gantry-media://Mikhail_Johnson_Resume2016[203].pdf'
+    block:
+      variations: center
   sectiontitle-6211:
     title: 'Section Title'
     attributes:
+      icon: 'fa fa-coffee fa-2x'
       title: 'LATEST PROJECTS'
       label: 'Pride & Joy'
-      icon: 'fa fa-coffee fa-2x'
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    block:
+      variations: center
+  portfolio-6995:
+    title: Projects
   sectiontitle-3112:
     title: 'Section Title'
     attributes:
-      title: 'MY PROCESS'
       icon: 'fa fa-wrench fa-2x'
+      title: 'MY PROCESS'
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    block:
+      variations: center
+  process-3920:
+    attributes:
+      items:
+        -
+          title: Planning
+          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
+          icon: 'fa fa-pagelines'
+          name: 'New item'
+        -
+          title: Designing
+          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
+          icon: 'fa fa-pagelines'
+          name: 'New item'
+        -
+          title: Implementing
+          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
+          icon: 'fa fa-pagelines'
+          name: 'New item'
+        -
+          title: Production
+          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
+          icon: 'fa fa-pagelines'
+          name: 'New item'
   sectiontitle-8813:
     title: 'Section Title'
     attributes:
+      icon: 'fa fa-trophy fa-2x'
       title: 'MY EXPERIENCE'
       label: 'Wide & Powerful'
-      icon: 'fa fa-trophy fa-2x'
+    block:
+      variations: center
+  timeline-4855:
+    attributes:
+      sections:
+        -
+          title: Education
+          icon: 'fa fa-briefcase'
+          name: Education
+      items:
+        -
+          section: Education
+          icon: 'fa fa-compass'
+          title: 'Lion Trade Corporation1'
+          link: /
+          label: 'Project Manager'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
+          info1: 'Recent Training''s:'
+          info1_sub: 'Recent Training''s:'
+          info2: 'Recent Training''s:'
+          info2_sub: 'PMP, ITIL & CCNA'
+          date: '1051'
+          name: 'New item'
+        -
+          section: Education
+          icon: 'fa fa-compass3'
+          title: 'Lion Trade Corporation'
+          link: /
+          label: 'Sleeping Hours'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
+          info1: 'Recent Training''s:'
+          info1_sub: 'Recent Training''s:'
+          info2: 'Recent Training''s:'
+          info2_sub: 'Recent Training''s:'
+          date: '2016'
+          name: 'New item'
+        -
+          section: Education
+          icon: 'fa fa-compass'
+          title: 'Lion Trade Corporation2'
+          link: /
+          label: 'Awards & Accolades'
+          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
+          info1: 'Recent Training''s:'
+          info1_sub: 'Recent Training''s:'
+          info2: 'Recent Training''s:'
+          info2_sub: 'Recent Training''s:'
+          date: '2019'
+          name: 'New item'
   sectiontitle-2967:
     title: 'Section Title'
     attributes:
-      title: 'My References'
       icon: 'fa fa-bullhorn fa-2x'
+      title: 'My References'
+    block:
+      variations: center
   owlcarousel-7166:
     title: 'Owl Carousel'
     attributes:
+      variant: o3
+      nav: disable
       dots: enable
       autoplay: enable
-      imageOverlay: disable
       items:
         -
           image: ''
@@ -287,18 +421,50 @@ content:
           linktext: ''
           buttonclass: button-outline
           name: 'New item'
-  custom-6355:
-    title: 'Develop CMS themes quickly'
-    attributes:
-      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Selfie was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Selfie is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
     block:
-      variations: title-center
+      class: 'nomargintop nopaddingtop'
+  custom-8324:
+    title: Quote
+    attributes:
+      html: ''
   sectiontitle-4237:
     title: 'Section Title'
-  custom-2771:
-    title: 'Custom HTML'
+    attributes:
+      icon: 'fa fa-compress fa-2x'
+      title: 'STAY IN TOUCH'
+      label: 'Available & Always'
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+    block:
+      variations: center
+  selfie-circle-widget-9207:
+    title: 'Circle Widget'
+    attributes:
+      icon: 'fa fa-phone'
+      label: '+1 323-444-4553'
+      desc: 'REACH ME ANYTIME'
+  selfie-circle-widget-1947:
+    title: 'Circle Widget'
+    attributes:
+      icon: 'fa fa-paperclip fa-2x'
+      label: example@site.com
+      desc: 'MY PERSONAL EMAIL'
+  selfie-circle-widget-7655:
+    title: 'Circle Widget'
+    attributes:
+      icon: 'fa fa-twitter'
+      label: '@johnsmith'
+      desc: 'SEND TWEET'
+  selfie-circle-widget-2478:
+    title: 'Circle Widget'
+    attributes:
+      icon: 'fa fa-envelope'
+      label: www.johnsmith.com
+      desc: 'PROFESSIONAL WEBSITE'
   custom-5682:
     title: 'Custom HTML'
+    attributes:
+      html: '[contact-form-7 id="12" title="Contact form 1"]'
+      filter: '1'
   totop-8670:
     title: 'To Top'
     attributes:

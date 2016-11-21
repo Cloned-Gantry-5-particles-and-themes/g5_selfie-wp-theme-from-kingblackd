@@ -7,7 +7,7 @@ form:
   fields:
     enabled:
       type: input.checkbox
-      label: Enabled
+      label: Title Variant
       description: Globally enable icon menu particles.
       default: true
 
@@ -15,6 +15,16 @@ form:
       type: input.selectize
       label: CSS Classes
       description: CSS class name for the particle.
+
+    variant:
+      type: select.select
+      label: Variation
+      description: Flip the title and subtitle.
+      default: o1
+      options:
+        o1: Default
+        o2: Flip title and Description
+        o3: DeTag Description
 
     title:
       type: input.text
@@ -40,6 +50,12 @@ form:
         enable: Enable
         disable: Disable
 
+    slides:
+      type: input.number
+      label: Slides
+      description: How many slides would you like?.
+      default: 1
+
     autoplay:
       type: select.select
       label: Autoplay
@@ -55,14 +71,16 @@ form:
       description: Set the speed of the Autoplay, in milliseconds.
       placeholder: 5000
 
-    imageOverlay:
-      type: select.select
-      label: Image Overlay
-      description: Enable or disable the image overlay.
-      default: enable
-      options:
-        enable: Enable
-        disable: Disable
+    full:
+      type: input.checkbox
+      label: Full Screen Image
+      description: Enable or disable full screen.
+
+    loop:
+      type: input.checkbox
+      label: Loop
+      description: Enable loop.
+      default: true
 
     items:
       type: collection.list

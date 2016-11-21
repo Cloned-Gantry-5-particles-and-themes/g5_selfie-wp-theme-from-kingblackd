@@ -1,5 +1,5 @@
 textarea, select[multiple=multiple] {
-	background-color: white;
+	background-color: $white;
 	border: 1px solid $base-border-color;
 
 	&:hover {
@@ -49,4 +49,14 @@ fieldset.input {
 
 #{$all-text-inputs-focus} {
 	border-color: $border-color-focus;
+}
+
+.selfie-contact input[type='submit']:hover{
+	opacity:0.8;
+}
+
+.selfie-contact input[type='submit']{
+	background-color: transparent;
+	border: 1px solid #1abc9c;
+	color: #9babb3;
 }

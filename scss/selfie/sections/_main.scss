@@ -1,7 +1,8 @@
 #g-mainbar {
-    background: $base-background;
+    background: transparent;
     color: $base-text-color;
     padding: $section-padding 0;
+
 }
 
 @media print {

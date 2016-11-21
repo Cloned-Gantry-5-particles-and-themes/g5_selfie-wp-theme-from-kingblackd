@@ -1,0 +1,35 @@
+name: Circle Widget
+description: Create a circle widget.
+type: particle
+icon: fa fa-circle-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    icon:
+      type: input.icon
+      label: Resume Icon
+      description: Input the icon.
+      default: 'fa fa-circle-o'
+
+    label:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: 'Enter title'
+
+    desc:
+      type: input.text
+      label: Description
+      description: Customize the description.
+      placeholder: Enter short description

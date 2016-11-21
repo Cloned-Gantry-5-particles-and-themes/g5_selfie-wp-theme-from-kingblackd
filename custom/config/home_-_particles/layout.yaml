@@ -19,7 +19,7 @@ layout:
     -
       - custom-3119
   /resume/: { }
-  /protfolio/: { }
+  /portfolio/: { }
   /utility/:
     -
       - contenttabs-3854

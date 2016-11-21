@@ -1,17 +1,17 @@
 // Font Family
-$font-family-default:           "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
-$font-family-title:             "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
+$font-family-default:           "Open Sans", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
+$font-family-title:             "Open Sans", "Helvetica", "Tahoma", "Geneva", "Arial", "Apple Color Emoji", "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif !default;
 
 $font-family-mono: 				"Menlo", "Monaco", monospace;
 $font-family-serif:				"Georgia", "Times", "Times New Roman", serif;
 
 // Font Weights
-$font-weight-light:				200;
+$font-weight-light:				300;
 $font-weight-regular:			400;
-$font-weight-medium:			500;
+$font-weight-medium:			400;
 $font-weight-semibold:			600;
 $font-weight-bold:				700;
-$font-weight-ultrabold:		  	900;
+$font-weight-ultrabold:		  	800;
 
 // Base Sizes
 $core-font-size:				1rem !default;

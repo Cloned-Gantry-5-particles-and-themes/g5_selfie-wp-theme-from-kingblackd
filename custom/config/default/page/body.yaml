@@ -1,0 +1,8 @@
+attribs:
+  id: ''
+  class: 'gantry g-selfie-style'
+  extra: {  }
+layout:
+  sections: '0'
+body_top: "<div class=\"mask\" style=\"display: none;\">\n\t\t<div id=\"intro-loader\" style=\"display: none;\">\n\t\t</div>\n\t</div>"
+body_bottom: ''

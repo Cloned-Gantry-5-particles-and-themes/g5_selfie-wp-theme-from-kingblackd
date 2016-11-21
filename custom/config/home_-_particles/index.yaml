@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479411472
+timestamp: 1479696595
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -11,7 +11,7 @@ sections:
   intro: Intro
   features: Features
   resume: Resume
-  protfolio: Protfolio
+  portfolio: Portfolio
   utility: Utility
   above: Above
   testimonials: Testimonials

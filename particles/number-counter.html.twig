@@ -4,7 +4,10 @@
 
   <div class="facts {{ particle.class|e }}">
     <!-- some number facts -->
+    {% for item in particle.items %}
     <div class="counters-item">
+
+
             <div class="counters-item-number">
                         {% if item.icon %}
                             <i class="{{ item.icon }}"></i>
@@ -19,6 +22,7 @@
                     </div>
             </div>
     </div>
+    {% endfor %}
     <!-- ./some number facts -->
   </div>
 

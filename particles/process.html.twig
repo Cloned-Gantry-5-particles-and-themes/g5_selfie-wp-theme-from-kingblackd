@@ -3,18 +3,20 @@
 {% block particle %}
     {% set seperator = url('gantry-assets://images/selfie-process-line1.png') %}
     {% set seperator2 = url('gantry-assets://images/selfie-process-line2.png') %}
+    {% for key, item in particle.items %}
 
+{% endfor %}
+    {% if particle.items %}
     <section class="time-line time-line-process {{ particle.class|e }}">
         <div class="timeline timeline-selfie process-timeline-selfie">
-
             {% for key, item in particle.items %}
                 {% if key % 2 == 0 %}
                     <div class="timeline-row item_fade_in selfie-process-left">
-                    {% else %}
+                {% else %}
                     <div class="timeline-row item_fade_in selfie-process-right">
-                    {% endif %}
+                {% endif %}
                     <div class="timeline-icon">
-                        <div class="bg-primary"><img width="170" height="170" src="{{ item.imgage }}" class="attachment-full wp-post-image" alt="{{ item.title }}"/></div>
+                        <div class="bg-primary"><img width="170" height="170" src="{{ item.image }}" class="attachment-full wp-post-image" alt="{{ item.title }}"/></div>
                     </div>
                     <div class="panel timeline-content">
                         <div class="panel-body">
@@ -26,16 +28,19 @@
                         </div>
                     </div>
                 </div>
+                {% if not loop.last %}
                 {% if key % 2 == 0 %}
                     <div class="selfie-process-separator">
-                        <img src="{{ seperator1 }}" alt="seperator"/>
+                        <img src="{{ seperator }}" alt="seperator"/>
                     </div>
                 {% else %}
                     <div class="selfie-process-separator">
                         <img src="{{ seperator2 }}" alt="seperator"/>
                     </div>
                 {% endif %}
+                {% endif %}
             {% endfor %}
         </div>
     </section>
+    {% endif %}
 {% endblock %}

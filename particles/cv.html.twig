@@ -2,7 +2,7 @@
 
 {% block particle %}
 
-		<div class="resume {{ particle.class|e }}">
+		<div class="{{ particle.class|e }}">
 
 			{% if particle.label %}
 		   <h1 class="padBottom killMargin">{{ particle.label }}
@@ -15,7 +15,7 @@
       {% endif %}
 
 				<a href="{{ particle.link|default('_self')|e }}" class="scroll btn btn-trans btn-border-w btn-large"> {{ particle.linktxt|raw }}</a>&nbsp;&nbsp;
-				<a class="btn btn-primary btn-lg identity-hover-button" href="{{ url(particle.location) }}"><i class="{{ particle.icon }}"></i> {{ particle.linktxt2|raw }}</a>
+				<a href="{{ url(particle.location) }}" class="scroll btn btn-trans btn-border-w btn-large"><i class="{{ particle.icon }}"></i> {{ particle.linktxt2|raw }}</a>
 
 		</div>
 
