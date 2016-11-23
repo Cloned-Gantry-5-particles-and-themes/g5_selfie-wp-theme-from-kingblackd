@@ -13,6 +13,10 @@ form:
       type: input.colorpicker
       label: Base Text Color
       default: "#424753"
+    h-text-color:
+      type: input.colorpicker
+      label: Htag Text Color
+      default: "#121212"
     favicon:
        type: input.imagepicker
        label: Favicon

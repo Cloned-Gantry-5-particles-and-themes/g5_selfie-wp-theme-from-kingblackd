@@ -45,5 +45,15 @@
                     {{ particle.web }}</h5>
             {% endif %}
         </div>
+        {% if particle.social %}
+        <div class="g-social">
+            {% for item in particle.social %}
+                <a target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" title="{{ item.text|e }}">
+                    <span class="{{ item.icon|e }}"></span>
+                    <span class="g-social-text">{{ item.text|e }}</span>
+                </a>
+            {% endfor %}
+          </div>
+        {% endif %}
     </div>
 {% endblock %}

@@ -68,3 +68,30 @@ form:
       label: Address
       description: Your address.
       placeholder: Enter your address
+
+    social:
+      type: collection.list
+      array: true
+      label: Social Items
+      description: Create each social item to display.
+      value: name
+      ajax: true
+
+      fields:
+
+        .name:
+          type: input.text
+          label: Name
+          skip: true
+
+        .icon:
+          type: input.icon
+          label: Icon
+
+        .text:
+          type: input.text
+          label: Text
+
+        .link:
+          type: input.text
+          label: Link

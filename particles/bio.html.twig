@@ -4,9 +4,6 @@
 
     <!-- some text about yourself -->
     <div class="bio {{ particle.class|e }}">
-        {% if particle.name %}
-            <h2 class="selfie-about-title">This is {{ particle.name }}</h2>
-        {% endif %}
         {% if particle.subtitle %}
             <h4 class="selfie-about-subtitle">{{ particle.subtitle }}</h4>
         {% endif %}
@@ -14,20 +11,10 @@
             <div class="selfie-about-text">
                 {{ particle.text|raw }}
             </div>
-        {% endif %}
-        {% if particle.social %}
-        <div class="g-social">
-            {% for item in particle.social %}
-                <a target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" title="{{ item.text|e }}">
-                    {% if particle.display in ['both', 'icons_only'] %}<span class="{{ item.icon|e }}"></span>{% endif %}
-                    {% if particle.display in ['both', 'text_only'] %}<span class="g-social-text">{{ item.text|e }}</span>{% endif %}
-                </a>
-            {% endfor %}
-        {% endif %}
-        </div>
-        {% if particle.image %}
-            <p class="align-right">
-                <img src="{{ url(particle.image) }}" alt="{{ particle.name }} signature"/>
+        {% endif %}        
+        {% if particle.signature %}
+            <p class="signature align-right">
+                {{ particle.signature }}
             </p>
         {% endif %}
     </div>

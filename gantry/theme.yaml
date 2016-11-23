@@ -37,17 +37,20 @@ configuration:
     textdomain: g5_selfie
 
   fonts:
-    OpenSans:
-      800italic: 'gantry-theme://fonts/OpenSans/OpenSans-ExtraBoldItalic'
-      800: 'gantry-theme://fonts/OpenSans/OpenSans-ExtraBold'
-      700italic: 'gantry-theme://fonts/OpenSans/OpenSans-BoldItalic'
-      700: 'gantry-theme://fonts/OpenSans/OpenSans-bold'
-      600italic: 'gantry-theme://fonts/OpenSans/OpenSans-semibolditalic'
-      600: 'gantry-theme://fonts/OpenSans/OpenSans-semibold'
-      400italic: 'gantry-theme://fonts/OpenSans/OpenSans-italic'
-      400: 'gantry-theme://fonts/OpenSans/OpenSans-regular'
-      300italic: 'gantry-theme://fonts/OpenSans/OpenSans-lightitalic'
-      300: 'gantry-theme://fonts/OpenSans/OpenSans-light'
+    'Open Sans':
+      800italic: 'gantry-theme://fonts/Open Sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic'
+      800: 'gantry-theme://fonts/Open Sans/ExtraBold/OpenSans-ExtraBold'
+      700italic: 'gantry-theme://fonts/Open Sans/BoldItalic/OpenSans-BoldItalic'
+      700: 'gantry-theme://fonts/Open Sans/Bold/OpenSans-bold'
+      600italic: 'gantry-theme://fonts/Open Sans/Semibolditalic/OpenSans-semibolditalic'
+      600: 'gantry-theme://fonts/Open Sans/Semibold/OpenSans-semibold'
+      400italic: 'gantry-theme://fonts/Open Sans/Italic/OpenSans-italic'
+      400: 'gantry-theme://fonts/Open Sans/Regular/OpenSans-regular'
+      300italic: 'gantry-theme://fonts/Open Sans/Lightitalic/OpenSans-lightitalic'
+      300: 'gantry-theme://fonts/Open Sans/Light/OpenSans-light'
+    lato:
+      900: 'gantry-theme://fonts/lato/lato_black/lato-black-webfont'
+      700: 'gantry-theme://fonts/lato/lato_bold/lato-bold-webfont'
 
   css:
     compiler: \Gantry\Component\Stylesheet\ScssCompiler

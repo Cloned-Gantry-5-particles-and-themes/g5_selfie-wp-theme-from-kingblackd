@@ -207,8 +207,23 @@ content:
       dob: '1980-04-25'
       phone: '+61 854 895 57 Ext. 123'
       email: john@johndoesmith.com
-      web: 'http://www.johndoesmith.com'
-      address: ''
+      address: '224 rosemount ave'
+      social:
+        -
+          icon: 'fa fa-facebook-square'
+          text: ''
+          link: ''
+          name: 'New item'
+        -
+          icon: 'fa fa-twitter-square'
+          text: ''
+          link: ''
+          name: 'New item'
+        -
+          icon: 'fa fa-google-plus-circle'
+          text: ''
+          link: ''
+          name: 'New item'
     block:
       class: 'nomarginleft nomarginright'
   skills-8030:
@@ -266,8 +281,8 @@ content:
     attributes:
       name: 'John Smith'
       subtitle: 'Creative and Professional Designer who loves everything around web design & programming.'
-      text: "<p>Placeat dolorum expedita modi corporis molestias fuga fugaingas consectetur pariatur dolorem neque deserunt Placeat dolorum expedita modi corporis molestias fuga fugaingas consectetur pariatur dolorem neque deserunt Placeat dolorum expedita modi corporis molestias fuga doloremin consectetur pariatur dolorem.</p>\n<p>Placeat dolorum expedita modi corporis molestias fuga doloremin consectetur pariatur dolorem.</p>"
-      image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_signature_new.png'
+      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc lectus, vehicula at orci vel, suscipit finibus massa. Aenean porttitor nunc vel justo fringilla, eget tempor nibh semper. Ut eget ultricies elit, tincidunt varius mauris. Duis nisl magna, placerat sit amet felis eget, aliquam facilisis urna. In aliquet ornare velit sit amet mollis. Donec molestie sagittis urna, ac tincidunt mauris placerat non. Nulla libero felis, bibendum sed ultricies sed, accumsan sit amet felis.\n</p><p>\nPellentesque tincidunt condimentum neque. Fusce faucibus, lorem eget interdum gravida, urna odio sodales nisi, et aliquam odio purus eget purus. Ut tristique, nunc id elementum rhoncus, risus.</p>"
+      signature: DBahl
   cv-9087:
     title: Resume
     attributes:
