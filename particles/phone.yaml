@@ -1,0 +1,17 @@
+name: Phone
+description: Phone Number Particle.
+type: particle
+icon: fa fa-phone
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    tel:
+      type: input.tel
+      label: Phone Number
+      description: Enter it...

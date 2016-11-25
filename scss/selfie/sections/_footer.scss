@@ -1,33 +1,36 @@
 #g-footer {
     background: $footer-background;
     color: $footer-text-color;
-    padding: $section-padding 0;
+    border-top: 2px solid #333333;
+    padding: 0;
 
     .g-content {
         margin: $content-margin 0;
     }
-
+    a {
+      color: $footer-text-color;
+      &:hover {
+        color: $accent-color-1;
+      }
+    }
     // Copyright
     .g-copyright {
         font-size: 0.8125rem;
         line-height: 1.25rem;
-
         @include breakpoint(mobile-only) {
             text-align: center;
         }
     }
-
     // Horizontal Menu
     .g-horizontalmenu {
         padding: 0.5rem 0;
         text-align: right;
-
         @include breakpoint(mobile-only) {
             text-align: center;
         }
 
         a {
-            color: $footer-text-color;
+            color: $white;
 
             &:hover {
                 color: fadeout($footer-text-color, 40%);
@@ -36,20 +39,50 @@
         }
     }
 
+    .selfie-footer-email {
+      border-left: 1px solid #333333;
+      border-right: 1px solid #333333;
+    }
+
+    .selfie-footer-phone {
+      border-left: 1px solid #333333;
+      border-right: 1px solid #333333;
+    }
     // To Top
     .g-totop {
-        padding: 0.5rem 0;
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        background: #1e1e1e;
+        color: $white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        zoom: 1;
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        z-index: 1000;
+        display: none;
+        padding: 0.2rem;
+
+        &:hover {
+            filter: alpha(opacity=100);
+            opacity: 1;
+        }
 
         a {
             color: $footer-text-color;
 
             &:hover {
-                color: fadeout($footer-text-color, 40%);
+                color: $accent-color-1;
             }
         }
     }
 }
-
 @media print {
     #g-footer {
         background: #fff !important;

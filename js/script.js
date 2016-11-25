@@ -45,25 +45,6 @@
         });
 
 
-        $('.chart').appear(function() {
-            $('.percentage-light').easyPieChart({
-                barColor: '#999999',
-                trackColor: 'rgba(225, 225, 225, 0.2)',
-                scaleColor: false,
-                lineCap: 'round',
-                rotate: -90,
-                lineWidth: 10,
-                size: 120,
-                animate: 2000,
-                onStep: function(value) {
-                    this.$el.find('span').text(~~value);
-                }
-            });
-        });
-
-        var initPieChart;
-
-
         $(".process-timeline-container").each(function() {
             $(this).mouseover(function() {
                 $(this).find(".process-timeline-faceone").addClass("process-timeline-faceone-hover");

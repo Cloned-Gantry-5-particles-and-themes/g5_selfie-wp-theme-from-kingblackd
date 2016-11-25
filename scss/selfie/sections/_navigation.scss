@@ -11,6 +11,13 @@
   -moz-transition: all 0.5s;
   transition: all 0.5s;
 
+  .g-logo, .selfie-download-cv i {
+    color: $navigation-text-color;
+    &:hover, {
+      color: $accent-color-1;
+    }
+  }
+
   // Container
   .g-container {
     position: relative;
@@ -18,8 +25,9 @@
 
   // Logo
   .g-logo {
-    color: $navigation-text-color;
     line-height: 2.8rem;
+    font-weight: 600;
+    letter-spacing: 3px;
 
     &.g-logo-selfie {
       svg {
@@ -52,6 +60,13 @@
 
   &.darken {
     background: white;
+
+    .g-logo {
+      color: #999;
+      &:hover, {
+        color: $accent-color-1;
+      }
+    }
 
     .g-main-nav .g-toplevel > li {
       > .g-menu-item-container {
@@ -150,7 +165,7 @@
         &.active {
           > .g-menu-item-container {
               color: fadeout($accent-color-1, 30%);
-            
+
             > .g-selected {
               color: fadeout($accent-color-1, 30%);
             }

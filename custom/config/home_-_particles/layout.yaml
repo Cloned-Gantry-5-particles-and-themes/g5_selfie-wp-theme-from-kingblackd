@@ -23,15 +23,15 @@ layout:
   /utility/:
     -
       - contenttabs-3854
+  /expanded/:
+    -
+      - custom-6355
   /above/:
     -
       - contentcubes-7850
   /testimonials/:
     -
       - custom-7658
-  /expanded/:
-    -
-      - custom-6355
   /container-main/:
     -
       -

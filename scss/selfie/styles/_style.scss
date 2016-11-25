@@ -40,7 +40,7 @@
   display: block;
   position: relative;
   top: 6px;
-  width: 15%;
+  width: 10%;
   height: 1px;
   background: #777777;
 }
@@ -117,33 +117,6 @@ textarea {
   font-family: Open Sans !important;
 }
 
-footer {
-  background: #222222;
-  border-top: 1px solid #333333;
-}
-
-.selfie-footer-email,
-.selfie-footer-email a,
-.selfie-footer-socials a,
-.vc_col-sm-3.selfie-footer-phone,
-.vc_col-sm-3.selfie-footer-phone a,
-.vc_col-sm-6.selfie-copyrights {
-  color: #999999;
-}
-
-.selfie-footer-email {
-  border-left: 1px solid #333333;
-  border-right: 1px solid #333333;
-}
-
-.selfie-footer-bottom {
-  border-top: 1px solid #333333;
-}
-
-.vc_col-sm-3.selfie-footer-phone {
-  border-left: 1px solid #333333;
-  border-right: 1px solid #333333;
-}
 
 .header .box-heading,
 .number-counters strong {

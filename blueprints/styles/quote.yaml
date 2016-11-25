@@ -1,5 +1,5 @@
-name: Expanded Styles
-description: Expanded section content styles for the Selfie theme
+name: Quote Styles
+description: Quote section styles for the Identity theme
 type: section
 
 form:
@@ -8,12 +8,12 @@ form:
     background:
       type: input.colorpicker
       label: Background
-      default: "#ffffff"
+      default: "#8f4dae"
     background-image:
       type: input.imagepicker
       label: Background Image
-      default: 'https://knightsofdesign.com/resources/img/section-bg1.jpg'
+      default: 'gantry-media://testimonials/img01.jpg'
     text-color:
       type: input.colorpicker
       label: Text
-      default: "#424753"
+      default: "#eceeef"

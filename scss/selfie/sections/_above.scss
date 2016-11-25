@@ -2,6 +2,11 @@
     background: $above-background;
     color: $above-text-color;
     padding: $section-padding 0;
+
+    .section-title, .selfie-submaintitle {
+      color: #27394a;
+    }
+
 }
 
 @media print {

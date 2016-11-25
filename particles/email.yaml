@@ -1,0 +1,17 @@
+name: Email
+description: Email Particle.
+type: particle
+icon: fa fa-envelope
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    email:
+      type: input.email
+      label: Email 
+      description: Enter it...

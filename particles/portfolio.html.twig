@@ -1,52 +1,33 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
 {% block particle %}
 
-    <div class="{{ particle.class|e }}">
-        {% if particle.title %}
-            <h2 class="g-title">{{ particle.title|raw }}</h2>
-        {% endif %}
-
-        <div class="portfolio-top"></div>
-        {% if particle.on %}
-        <div id="portfolio-filter">
-            <!--portfolio category-->
-            <div class="center">
-                <ul class="portfolio-filter-list white">
-                    <li>
-                        <a class="active" href="#" data-cat="*">ALL</a>
-                    </li>
-                    {% for option in particle.filters %}
-                        {% if option.title %}
-                            <li>
-                                <a href="#" data-cat="{{ option.title|lower }}">{{ option.title|title }}</a>
-                            </li>
-                        {% endif %}
-                    {% endfor %}
-                </ul>
-            </div>
-            <!--End portfolio category-->
-        </div>
-        {% endif %}
-
-        <!-- portfolio-items -->
-        <div id="portfolio-items" class="portfolio-items item_fade_in">
+    <!-- Start portfolio-items -->
+    <div id="portfolio-items" class="portfolio-items item_fade_in {{ particle.class|e }}">
+        <div class="g-grid">
             {% for item in particle.items %}
-                <article class="{{ item.filters|e }}">
-                    <a href="#!projects/project-single.html">
-                        <img src="{{ url(item.image)|e }}" alt="image"/>
+                <div class="g-block size-33-3">
+                    <article class="black stamp ">
+                        <img src="{{ url(item.image)|e }}" class="attachment-380x380 wp-post-image" alt=""/>
                         <div class="overlay">
-                            <div class="item-info">
-                                <i class="fa fa-camera"></i>
-                                <h3>{{ item.title|e }}</h3>
-                                <span>{{ item.label|e }}</span>
+                            <div class="controls">
+                              {% if item.link %}
+                                <a href="{{ item.link }}" class="icon-round-border">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                                {% endif %}
+                                <a href="{{ url(item.image)|e }}" class="icon-round-border icon-view">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <div class="item-info">
+                                    <h3>{{ item.title|e }}</h3>
+                                    <span>{{ item.label|e }}</span>
+                                </div>
                             </div>
                         </div>
-                        <!-- End .overlay -->
-                    </a>
-                </article>
+                    </article>
+                </div>
             {% endfor %}
         </div>
-        <!-- End portfolio-items -->
     </div>
-
+    <!-- End portfolio-items -->
 {% endblock %}

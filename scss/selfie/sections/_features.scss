@@ -3,8 +3,16 @@
     color: $features-text-color;
     padding: $section-padding 0;
 
+    .selfie-about-text p {
+      margin: .5rem 0;
+    }
+
     .selfie-profile-details img {
       margin-bottom: 0;
+    }
+
+    .skillBg {
+      margin-bottom: 10px;
     }
 }
 

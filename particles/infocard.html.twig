@@ -5,7 +5,7 @@
     <div class="card  {{ particle.class|e }}">
         <div class="selfie-services-image">
           {% if particle.display in ['icons'] %}<i class="{{ particle.icon }}"></i>{% endif %}
-          {% if particle.display in ['img'] %}<img src="{{ particle.image }}" alt="{{ particle.title }}" />{% endif %}
+          {% if particle.display in ['img'] %}<img src="{{ url(particle.image) }}" alt="{{ particle.title }}" />{% endif %}
             <h3 class="selfie-services-image-title">{{ particle.title }}</h3>
             <p class="card-text">{{ particle.desc }}</p>
         </div>

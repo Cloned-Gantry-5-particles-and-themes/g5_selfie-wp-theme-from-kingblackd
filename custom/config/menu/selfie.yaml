@@ -1,0 +1,31 @@
+ordering:
+  home: ''
+  about: ''
+  readings: ''
+  experience: ''
+  education: ''
+  testimonials: ''
+  contact: ''
+  resume: ''
+items:
+  home:
+    object_id: 2129
+  about:
+    object_id: 2130
+  readings:
+    object_id: 2131
+  experience:
+    object_id: 2132
+  education:
+    object_id: 2133
+  testimonials:
+    object_id: 2136
+  contact:
+    object_id: 2134
+  resume:
+    object_id: 2135
+    dropdown_dir: right
+    dropdown_hide: '1'
+    width: auto
+    icon: 'fa fa-download'
+    icon_only: '1'

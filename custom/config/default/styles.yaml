@@ -2,6 +2,7 @@ preset: preset1
 base:
   background: '#ffffff'
   text-color: '#999999'
+  h-text-color: '#121212'
   favicon: ''
 accent:
   color-1: '#1abc9c'
@@ -36,10 +37,11 @@ testimonials:
   text-color: '#ffffff'
 expanded:
   background: '#ffffff'
-  text-color: '#424753'
+  background-image: 'https://knightsofdesign.com/resources/img/section-bg1.jpg'
+  text-color: '#ffffff'
 footer:
   background: '#222222'
-  text-color: '#ffffff'
+  text-color: '#999999'
 offcanvas:
   background: '#4db2b3'
   text-color: '#eceeef'
@@ -49,6 +51,10 @@ offcanvas:
 portfolio:
   background: '#f4f5f7'
   text-color: '#424753'
+quote:
+  background: '#8f4dae'
+  background-image: 'gantry-media://testimonials/img01.jpg'
+  text-color: '#eceeef'
 resume:
   background: '#312f38'
   background-image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/11/selfie-team.jpg?id=1195'

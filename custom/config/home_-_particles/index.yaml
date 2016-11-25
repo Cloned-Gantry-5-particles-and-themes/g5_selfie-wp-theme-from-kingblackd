@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1479740308
+timestamp: 1480013279
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -13,9 +13,9 @@ sections:
   resume: Resume
   portfolio: Portfolio
   utility: Utility
+  expanded: Expanded
   above: Above
   testimonials: Testimonials
-  expanded: Expanded
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -34,8 +34,8 @@ particles:
   custom:
     custom-5807: Intro
     custom-3119: Features
-    custom-7658: 'Customer Testimonials'
     custom-6355: 'Develop CMS themes quickly'
+    custom-7658: 'Customer Testimonials'
   contenttabs:
     contenttabs-3854: 'Content Tabs'
   contentcubes:

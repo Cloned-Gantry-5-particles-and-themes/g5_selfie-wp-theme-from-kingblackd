@@ -15,9 +15,9 @@ layout:
   /resume/: { }
   /portfolio/: { }
   /utility/: {  }
+  /expanded/: {  }
   /above/: {  }
   /testimonials/: {  }
-  /expanded/: {  }
   /container-main/:
     -
       -

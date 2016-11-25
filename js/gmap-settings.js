@@ -73,7 +73,6 @@ function initMap() {
 
     var mapOptions = {
         zoom: 8,
-				center: 
         center: myLatLng,
         disableDefaultUI: true,
         scrollwheel: false,

@@ -1,4 +1,4 @@
-name: Portfolio
+name: Isotope
 description: Display a Portfolio Filter.
 type: particle
 icon: fa-folder-open-o
@@ -16,6 +16,31 @@ form:
       label: CSS Classes
       description: CSS class name for the particle.
 
+    title:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: 'Enter title'
+
+    on:
+      type: input.checkbox
+      label: Enabel Filter
+      description: Enable the filters
+
+    filters:
+      type: collection.list
+      array: true
+      label: Portfolio filters
+      description: Create each filter item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .title:
+          type: input.text
+          label: Name
+          description: filter for the particle.
+
     items:
       type: collection.list
       array: true
@@ -25,10 +50,18 @@ form:
       ajax: true
 
       fields:
+        .filters:
+          type: input.selectize
+          label: Aplicable filters
+          description: filters for the particle item.
         .image:
           type: input.imagepicker
           label: Image
           description: Select desired image.
+        .icon:
+          type: input.icon
+          label: Icon
+          description: add an icon.
         .title:
           type: input.text
           label: Title
@@ -38,7 +71,3 @@ form:
           label: Label
           description: Customize the Label.
           placeholder: Photo / Web
-        .link:
-          type: input.text
-          label: Item Link
-          description: Specify the link.

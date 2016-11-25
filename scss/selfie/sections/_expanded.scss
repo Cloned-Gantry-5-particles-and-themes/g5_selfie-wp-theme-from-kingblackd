@@ -1,7 +1,16 @@
 #g-expanded {
     background: $expanded-background;
     color: $expanded-text-color;
-    padding: $section-padding;
+    padding: $section-padding 0;
+
+    @if $expanded-background-image {
+  		background: url($expanded-background-image) no-repeat center top;
+  		background-size: cover;
+  		background-attachment: fixed;
+  	}
+    h4 {
+      color: $white;
+    }
 }
 
 @media print {

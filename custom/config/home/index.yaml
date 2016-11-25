@@ -1,5 +1,5 @@
 name: home
-timestamp: 1479926949
+timestamp: 1480094247
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -11,11 +11,11 @@ sections:
   intro: Intro
   features: Features
   resume: Resume
-  protfolio: Protfolio
+  portfolio: Portfolio
   utility: Utility
+  expanded: Expanded
   above: Above
   testimonials: Testimonials
-  expanded: Expanded
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -52,13 +52,14 @@ particles:
     portfolio-6995: Projects
   process:
     process-3920: Process
+  custom:
+    custom-4289: 'Custom HTML'
+    custom-5015: 'Custom HTML'
+    custom-8324: Quote
+    custom-2531: 'Custom HTML'
+    custom-5682: 'Contact SC'
   timeline:
     timeline-4855: Timeline
-  custom:
-    custom-8324: Quote
-    custom-5682: 'Custom HTML'
-    custom-1125: 'Custom HTML'
-    custom-9450: 'Custom HTML'
   selfie-circle-widget:
     selfie-circle-widget-9207: 'Circle Widget'
     selfie-circle-widget-1947: 'Circle Widget'
@@ -66,8 +67,12 @@ particles:
     selfie-circle-widget-2478: 'Circle Widget'
   totop:
     totop-8670: 'To Top'
+  email:
+    email-1270: Email
   copyright:
     copyright-1736: Copyright
+  phone:
+    phone-9918: Phone
   mobile-menu:
     mobile-menu-5697: Mobile-menu
 inherit: {  }

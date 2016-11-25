@@ -1,11 +1,12 @@
 #g-testimonials {
 	background: $testimonials-background;
 	color: $testimonials-text-color;
-	padding: $section-padding 0;
+	padding-bottom: $section-padding - 1;
 	position: relative;
 	z-index: 10;
 	@if $testimonials-background-image {
-		background: url($testimonials-background-image) no-repeat center;
+
+		background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url($testimonials-background-image) no-repeat center;
 		background-size: cover;
 
 		@if $testimonials-background-overlay == 'enabled' {
@@ -25,10 +26,17 @@
 
 	h1 {
 		color: $testimonials-text-color;
+		&::after {
+			background: $white;
+		}
 	}
 
 	.g-title {
 		margin-bottom: 0;
+	}
+
+	.g-owlcarousel-item-content-wrapper {
+		padding-top: 0 !important;
 	}
 
 	.g-owlcarousel-item-content {
@@ -38,11 +46,6 @@
 		padding-bottom: 0;
 	}
 
-	.owl-dots {
-		position: static;
-
-	}
-
 	.g-owlcarousel-item-content-container {
 		position: relative;
 		margin: auto;
@@ -50,6 +53,7 @@
 
 		.g-owlcarousel-item-desc {
 			display: block;
+			font-size: 1rem;
 		}
 	}
 
@@ -116,9 +120,9 @@
 	}
 
 	.owl-dots {
-		position: absolute;
+		position: relative;;
 		text-align: center;
-		top: 170px;
+		top: 0;
 		width: 100%;
 		z-index: 20;
 	}

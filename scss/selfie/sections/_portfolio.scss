@@ -3,6 +3,10 @@
   color: $portfolio-text-color;
   padding: $section-padding 0;
 
+  .section-title, .selfie-submaintitle, .section-title h1 {
+    color: #27394a;
+  }
+
 }
 @media print {
   #g-portfolio {

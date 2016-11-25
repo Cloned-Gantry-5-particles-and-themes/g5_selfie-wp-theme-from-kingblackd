@@ -26,7 +26,7 @@ layout:
   /resume/:
     -
       - cv-9087
-  /protfolio/:
+  /portfolio/:
     -
       - sectiontitle-6211
     -
@@ -36,6 +36,11 @@ layout:
       - sectiontitle-3112
     -
       - process-3920
+  /expanded/:
+    -
+      - 'custom-4289 25'
+      - 'custom-5015 50'
+      - 'custom-8324 25'
   /above/:
     -
       - sectiontitle-8813
@@ -46,9 +51,6 @@ layout:
       - sectiontitle-2967
     -
       - owlcarousel-7166
-  /expanded/:
-    -
-      - custom-8324
   /container-main/:
     -
       -
@@ -61,6 +63,8 @@ layout:
             - 'selfie-circle-widget-7655 25'
             - 'selfie-circle-widget-2478 25'
           -
+            - custom-2531
+          -
             - custom-5682
       -
         'sidebar 10': {  }
@@ -68,9 +72,9 @@ layout:
     -
       - totop-8670
     -
-      - 'custom-1125 25'
+      - 'email-1270 25'
       - 'copyright-1736 50'
-      - 'custom-9450 25'
+      - 'phone-9918 25'
   /offcanvas/:
     -
       - mobile-menu-5697
@@ -95,7 +99,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  protfolio:
+  portfolio:
     type: section
     attributes:
       boxed: ''
@@ -104,15 +108,15 @@ structure:
     attributes:
       boxed: ''
       class: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
   above:
     type: section
     attributes:
       boxed: ''
   testimonials:
-    type: section
-    attributes:
-      boxed: ''
-  expanded:
     type: section
     attributes:
       boxed: ''
@@ -135,30 +139,28 @@ content:
   logo-9608:
     title: 'Logo / Image'
     attributes:
+      image: ''
       link: '1'
-      text: 'John Doe'
-      class: ''
+      text: 'Dean Balh'
+      class: g-logo
   owlcarousel-2455:
     title: 'Owl Carousel'
     attributes:
+      nav: disable
+      dots: disable
+      slides: '1'
+      autoplay: disable
       full: '1'
+      loop: '0'
       items:
         -
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/09/selfie-slider-two.jpg'
-          title: 'Selfie is here!'
-          desc: 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
+          title: 'I Am Dean Balh'
+          desc: "I am an Award Winning Sales Representative\nin the great city of toronto."
+          link: ''
+          linktext: ''
           buttonclass: ''
           name: 'Item 1'
-        -
-          image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/09/selfie-slider-two.jpg'
-          title: 'Selfie is Gantry powered!'
-          desc: 'Selfie is based on the powerful Gantry framework.'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
-          buttonclass: ''
-          name: 'Item 2'
   infocard-6612:
     title: 'Intro Cards'
     attributes:
@@ -210,70 +212,80 @@ content:
       address: '224 rosemount ave'
       social:
         -
-          icon: 'fa fa-facebook-square'
+          icon: 'fa fa-facebook-square fa-2x'
           text: ''
           link: ''
-          name: 'New item'
+          name: facebook
         -
-          icon: 'fa fa-twitter-square'
+          icon: 'fa fa-twitter-square fa-2x'
           text: ''
           link: ''
-          name: 'New item'
+          name: twitter
         -
-          icon: 'fa fa-google-plus-circle'
+          icon: 'fa fa-google-plus-circle fa-2x'
           text: ''
           link: ''
-          name: 'New item'
+          name: google
+        -
+          icon: 'fa fa-pinterest-square fa-2x'
+          text: ''
+          link: ''
+          name: pinterest
+        -
+          icon: 'fa fa-youtube-play fa-2x'
+          text: ''
+          link: ''
+          name: youtube
     block:
       class: 'nomarginleft nomarginright'
   skills-8030:
     attributes:
       stats:
         -
-          icon: 'fa fa-apple fa-2x'
-          label: 'Frequent Update'
-          value: '627'
-          name: 'New item'
+          icon: 'fa fa-comments fa-2x'
+          label: Languages
+          value: '3'
+          name: Languages
         -
-          icon: 'fa fa-apple fa-2x'
-          label: 'Sleeping Hours'
-          value: '627'
-          name: 'New item'
+          icon: 'fa fa-flag fa-2x'
+          label: 'Years Experience'
+          value: '7'
+          name: Experience
         -
-          icon: 'fa fa-apple fa-2x'
-          label: 'Lines of Code'
-          value: '627'
-          name: 'New item'
+          icon: 'fa fa-trophy fa-2x'
+          label: Awards
+          value: '13'
+          name: Awards
         -
-          icon: 'fa fa-apple fa-2x'
-          label: 'Happy Customers'
-          value: '627'
-          name: 'New item'
+          icon: 'fa fa-thumbs-up fa-2x'
+          label: 'Volunteer Efforts'
+          value: '5'
+          name: Volunteer
       skills:
         -
-          title: PHP
+          title: LeaderShip
           percent: '75'
-          name: PHP
+          name: LeaderShip
         -
-          title: 'Html / css'
+          title: Initiative
           percent: '80'
-          name: Html
+          name: Initiative
         -
-          title: WordPress
+          title: Communication
           percent: '95'
-          name: WP
+          name: Communication
         -
-          title: photoshop
-          percent: '65'
-          name: PS
+          title: Enthusiaim
+          percent: '80'
+          name: Enthusiaim
         -
-          title: photoshop
-          percent: '56'
-          name: PS2
+          title: 'Team Work'
+          percent: '100'
+          name: 'Team Work'
         -
-          title: photoshop
+          title: Creativity
           percent: '90'
-          name: 'PS#'
+          name: Creativity
     block:
       class: 'nomarginleft nomarginright'
   bio-4636:
@@ -281,7 +293,7 @@ content:
     attributes:
       name: 'John Smith'
       subtitle: 'Creative and Professional Designer who loves everything around web design & programming.'
-      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nunc lectus, vehicula at orci vel, suscipit finibus massa. Aenean porttitor nunc vel justo fringilla, eget tempor nibh semper. Ut eget ultricies elit, tincidunt varius mauris. Duis nisl magna, placerat sit amet felis eget, aliquam facilisis urna. In aliquet ornare velit sit amet mollis. Donec molestie sagittis urna, ac tincidunt mauris placerat non. Nulla libero felis, bibendum sed ultricies sed, accumsan sit amet felis.\n</p><p>\nPellentesque tincidunt condimentum neque. Fusce faucibus, lorem eget interdum gravida, urna odio sodales nisi, et aliquam odio purus eget purus. Ut tristique, nunc id elementum rhoncus, risus.</p>"
+      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur sagittis imperdiet. Sed eget libero nec ligula mollis lacinia accumsan nec lectus. Sed lacinia massa neque, ac commodo magna cursus at. Cras vehicula maximus nunc non varius. Curabitur ut augue non dui rutrum luctus. Suspendisse potenti. Cras lobortis ligula et nunc tempor, sit amet mollis neque ultrices. Nullam nec nulla ac odio condimentum accumsan. Nulla ac massa at nulla ultrices vulputate. Ut varius varius nulla, volutpat luctus risus faucibus non. Aenean vel faucibus odio.\n</p><p>\nQuisque sit amet tincidunt felis. Fusce sed nibh elementum, sagittis augue quis, mollis magna. Maecenas dapibus mi ultricies pellentesque rhoncus. Morbi pulvinar mollis metus, id efficitur justo. Integer mattis pretium quam ut laoreet. In suscipit ex in sagittis maximus. Cras leo leo, varius at feugiat gravida, gravida eget quam. </p>"
       signature: DBahl
   cv-9087:
     title: Resume
@@ -300,18 +312,61 @@ content:
     title: 'Section Title'
     attributes:
       icon: 'fa fa-coffee fa-2x'
-      title: 'LATEST PROJECTS'
+      title: 'Recent Readings'
       label: 'Pride & Joy'
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
     block:
       variations: center
   portfolio-6995:
     title: Projects
+    attributes:
+      items:
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          title: 'The Rave'
+          label: 'Edgar Allen Poe'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/edgar.jpg'
+          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
   sectiontitle-3112:
     title: 'Section Title'
     attributes:
       icon: 'fa fa-wrench fa-2x'
-      title: 'MY PROCESS'
+      title: 'MY EXPERIENCE'
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
     block:
       variations: center
@@ -342,11 +397,27 @@ content:
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
+  custom-4289:
+    title: 'Custom HTML'
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right fa-flip-horizontal" aria-hidden="true"></i>'
+    block:
+      variations: align-right
+  custom-5015:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h4>It''s the repletion of affirmations that leads to belief becomes a deep conviction, things begin to happen</h4>'
+  custom-8324:
+    title: Quote
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right" aria-hidden="true"></i>'
+    block:
+      variations: align-left
   sectiontitle-8813:
     title: 'Section Title'
     attributes:
       icon: 'fa fa-trophy fa-2x'
-      title: 'MY EXPERIENCE'
+      title: 'MY Education'
       label: 'Wide & Powerful'
     block:
       variations: center
@@ -401,7 +472,7 @@ content:
     title: 'Section Title'
     attributes:
       icon: 'fa fa-bullhorn fa-2x'
-      title: 'My References'
+      title: 'My Testimonials'
     block:
       variations: center
   owlcarousel-7166:
@@ -411,6 +482,7 @@ content:
       nav: disable
       dots: enable
       autoplay: enable
+      autoplaySpeed: ''
       items:
         -
           image: ''
@@ -438,10 +510,6 @@ content:
           name: 'New item'
     block:
       class: 'nomargintop nopaddingtop'
-  custom-8324:
-    title: Quote
-    attributes:
-      html: ''
   sectiontitle-4237:
     title: 'Section Title'
     attributes:
@@ -475,35 +543,41 @@ content:
       icon: 'fa fa-envelope'
       label: www.johnsmith.com
       desc: 'PROFESSIONAL WEBSITE'
-  custom-5682:
+  custom-2531:
     title: 'Custom HTML'
     attributes:
-      html: '[contact-form-7 id="12" title="Contact form 1"]'
+      html: "<div id=\"map_canvas\"></div>\n<script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBMkRoN_9gBXocQZ-FfBGwLEJayFq7dlXc&callback=initMap\" async defer></script>\n<script src=\"http://local.vcard.com/wp-content/themes/g5_selfie/js/gmap-settings.js?\"></script>"
+  custom-5682:
+    title: 'Contact SC'
+    attributes:
+      html: '[contact-form-7 id="811" title="Selfie Form"]'
       filter: '1'
   totop-8670:
     title: 'To Top'
     attributes:
-      icon: 'fa fa-chevron-up fa-fw'
+      icon: 'fa fa-angle-up fa-fw fa-2x'
       content: ''
-  custom-1125:
-    title: 'Custom HTML'
-    attributes:
-      html: '<a href="mailto:example@site.com">example@site.com</a>'
     block:
-      class: selfie-footer-email
+      class: g-flushed
+  email-1270:
+    attributes:
+      email: example@site.com
+    block:
+      class: 'item_left selfie-footer-email'
   copyright-1736:
     attributes:
       date:
         start: '2016'
         end: now
-      owner: ProfTeam
+      owner: 'ProfTeam All Rights Reserved.'
       link: 'http://www.profteamsolutions.com'
       target: _blank
       additional:
-        text: 'All Rights Reserved.'
-  custom-9450:
-    title: 'Custom HTML'
-    attributes:
-      html: '<a href="tel:+1323-444-4553">+1323-444-4553</a>'
+        text: ''
     block:
-      class: selfie-footer-phone
+      class: selfie-copyrights
+  phone-9918:
+    attributes:
+      tel: +1323-444-4553
+    block:
+      class: 'selfie-footer-phone item_right'

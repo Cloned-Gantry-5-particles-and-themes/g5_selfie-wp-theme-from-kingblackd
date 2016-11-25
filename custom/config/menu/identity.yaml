@@ -1,0 +1,26 @@
+ordering:
+  home: ''
+  about: ''
+  skills: ''
+  contact: ''
+  education: ''
+  readings: ''
+  experience: ''
+  testimonials: ''
+items:
+  home:
+    object_id: 892
+  about:
+    object_id: 885
+  skills:
+    object_id: 887
+  contact:
+    object_id: 891
+  education:
+    object_id: 888
+  readings:
+    object_id: 886
+  testimonials:
+    object_id: 889
+  experience:
+    object_id: 890
