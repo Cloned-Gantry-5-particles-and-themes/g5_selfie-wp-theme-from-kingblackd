@@ -19,8 +19,8 @@ header:
   background-overlay: disabled
   text-color: '#4e4e4e'
 intro:
-  background: '#fcfcfc'
-  text-color: '#424753'
+  background: '#f9f9f9'
+  text-color: '#999999'
 features:
   background: '#ffffff'
   text-color: '#999999'

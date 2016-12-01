@@ -1,10 +1,48 @@
 #g-container-main {
-  background-image: url("http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/11/selfie-contact-new.jpg?id=1852") !important;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+    background-image: url("http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/11/selfie-contact-new.jpg?id=1852") !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
-
+.section-title h1 {
+  text-transform: uppercase;
+}
+.quote-block {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  &:before {
+    content: "\f10e";
+    position: relative;
+    /* left: -35px; */
+    margin-right: 15px;
+    top: 0;
+    ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    font-size: 2rem;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  &:after {
+    content: "\f10e";
+    position: relative;
+    margin-left: 15px;
+    /* right: -10px; */
+    top: 0;
+    font-size: 2rem;
+    /* display: inline-block; */
+    font-family: 'FontAwesome';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
 .panel {
     margin-bottom: 20px;
     background-color: #ffffff;
@@ -12,88 +50,88 @@
     border-radius: 4px;
     -webkit-box-shadow: none;
     box-shadow: none;
-  }
+}
 
-  .panel-body-right p {
+.panel-body-right p {
     margin: 0;
-  }
+}
 
-  .selfie-title-margin p {
+.selfie-title-margin p {
     margin-top: 10px;
     color: #121212;
     font-weight: 600;
 }
 
 .section-title:after {
-  content: '';
-  display: block;
-  position: relative;
-  top: 16px;
-  width: 3%;
-  height: 1px;
-  background: #777777;
-  margin: auto;
-}
-
-.selfie-myprofile-title:after {
-  content: '';
-  display: block;
-  position: relative;
-  top: 6px;
-  width: 10%;
-  height: 1px;
-  background: #777777;
-}
-
-.selfie-about-subtitle {
-  color: #999999 !important;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 21px !important;
-  letter-spacing: 0.2px;
-
-  &:after {
     content: '';
     display: block;
     position: relative;
-    top: 25px;
-    background: #999;
+    top: 16px;
+    width: 3%;
     height: 1px;
-    width: 100%;
-  }
+    background: #777777;
+    margin: auto;
+}
+
+.selfie-myprofile-title:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 6px;
+    width: 10%;
+    height: 1px;
+    background: #777777;
+}
+
+.selfie-about-subtitle {
+    color: #999999 !important;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 21px !important;
+    letter-spacing: 0.2px;
+
+    &:after {
+        content: '';
+        display: block;
+        position: relative;
+        top: 25px;
+        background: #999;
+        height: 1px;
+        width: 100%;
+    }
 }
 
 .selfie-about-title {
-  color: #999999 !important;
-  font-weight: 500;
-  font-size: 34px !important;
-  letter-spacing: 1px;
-  margin: 0;
+    color: #999999 !important;
+    font-weight: 500;
+    font-size: 34px !important;
+    letter-spacing: 1px;
+    margin: 0;
 }
 
 .selfie-myprofile-title {
-  color: #777;
-  font-size: 18px !important;
-  font-weight: 500;
-  letter-spacing: 2px;
+    color: #777;
+    font-size: 18px !important;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .selfie-about-text {
-  padding-top: 10px;
-  letter-spacing: 1px;
-  font-size: 14px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
 @font-face {
-  font-family: entypo;
-  src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/entypo.woff");
+    font-family: entypo;
+    src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/entypo.woff");
 }
 @font-face {
-  font-family: entyposocial;
-  src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/entypo-social.woff");
+    font-family: entyposocial;
+    src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/entypo-social.woff");
 }
 @font-face {
-  font-family: fontello;
-  src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/fontello.woff");
+    font-family: fontello;
+    src: url("http://local.vcard.com/wp-content/themes/selfie/fonts/fontello.woff");
 }
 
 .header .heading,
@@ -106,85 +144,84 @@
 body,
 input,
 textarea {
-  font-family: Open Sans !important;
+    font-family: Open Sans !important;
 }
 
 .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a {
-  font-family: Open Sans !important;
+    font-family: Open Sans !important;
 }
 
 .wpb_accordion_content {
-  font-family: Open Sans !important;
+    font-family: Open Sans !important;
 }
-
 
 .header .box-heading,
 .number-counters strong {
-  font-family: Open Sans;
+    font-family: Open Sans;
 }
 
 .counters-item strong,
 .section-title h1 span {
-  font-family: Open Sans !important;
+    font-family: Open Sans !important;
 }
 
 #content h4.wpb_toggle,
 .wpb_toggle {
-  background-color: #f5f5f5 !important;
-  border: 1px solid #dddddd !important;
-  color: #333333 !important;
-  padding: 10px 15px !important;
-  border-radius: 3px !important;
-  font-size: 16px !important;
-  line-height: 1.5 !important;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #dddddd !important;
+    color: #333333 !important;
+    padding: 10px 15px !important;
+    border-radius: 3px !important;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
 }
 
 .wpb_toggle.wpb_toggle_title_active {
-  margin-bottom: -1px !important;
+    margin-bottom: -1px !important;
 }
 
 .wpb_toggle_content {
-  border: 1px solid #dddddd;
-  border-radius: 0 0 3px 3px;
-  margin-bottom: 5px !important;
-  padding: 15px !important;
-  margin-top: 0 !important;
+    border: 1px solid #dddddd;
+    border-radius: 0 0 3px 3px;
+    margin-bottom: 5px !important;
+    padding: 15px !important;
+    margin-top: 0 !important;
 }
 
 .logo {
-  margin: 0;
+    margin: 0;
 }
 
 .flickr_badge_image:hover {
-  border-color: #1abc9c !important;
+    border-color: #1abc9c !important;
 }
 
 .proftheme-widget ul li a.sentient-widget-recent-post-title:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 #content h4.wpb_toggle:hover,
 .wpb_toggle:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 #content h4.wpb_toggle_title_active:hover,
 .wpb_toggle_title_active:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 #content h4.wpb_toggle,
 .wpb_toggle {
-  background-color: #f5f5f5 !important;
-  background-image: none !important;
-  color: #333 !important;
+    background-color: #f5f5f5 !important;
+    background-image: none !important;
+    color: #333 !important;
 }
 
 #content h4.wpb_toggle_title_active,
 .wpb_toggle_title_active {
-  background-color: #f5f5f5 !important;
-  color: #333 !important;
-  background-image: none !important;
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+    background-image: none !important;
 }
 
 #wp-calendar #today,
@@ -193,11 +230,11 @@ textarea {
 .portfolio-pagination a.page-numbers:hover,
 .portfolio-pagination span:hover,
 .wpb_tabs_nav.ui-tabs-nav.clearfix.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all li.ui-state-default.ui-corner-top.ui-tabs-active.ui-state-active {
-  background: #1abc9c !important;
+    background: #1abc9c !important;
 }
 
 #recentcomments .sentient-comments-author a:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 #comments #respond h3,
@@ -208,7 +245,7 @@ textarea {
 .reply a.comment-reply-link:hover,
 .reply:hover,
 Recent-post-list li a:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .comment-info span a,
@@ -222,52 +259,52 @@ Recent-post-list li a:hover {
 .sidebar .cat-item:hover span,
 .sidebar .widget .twitter_widget ul li a,
 ul li.active .d-text-c-h {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .d-bg-c,
 .d-bg-c-h.active,
 .d-bg-c-h:hover,
 .d-bg-c.active {
-  background: #1abc9c !important;
+    background: #1abc9c !important;
 }
 
 .div-top:hover {
-  border: 2px solid #1abc9c;
+    border: 2px solid #1abc9c;
 }
 
 .div-top:hover i {
-  color: #1abc9c;
+    color: #1abc9c;
 }
 
 a {
-  color: #1abc9c;
+    color: #1abc9c;
 }
 
 .process-node.active {
-  //background: ;
-  border: 2px solid #1abc9c;
+    //background: ;
+    border: 2px solid #1abc9c;
 }
 
 footer p a {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .slider-section .ls-bottom-nav-wrapper .ls-bottom-slidebuttons a.ls-nav-active,
 .slider-section .ls-bottom-nav-wrapper .ls-bottom-slidebuttons a:hover {
-  background: #1abc9c !important;
-  border: 2px solid #1abc9c !important;
+    background: #1abc9c !important;
+    border: 2px solid #1abc9c !important;
 }
 
 .bg-callout {
-  background-color: #1abc9c;
-  background-image: url('http://local.vcard.com/wp-content/themes/selfie/images/selfie-internal-pages-new.jpg');
+    background-color: #1abc9c;
+    background-image: url('http://local.vcard.com/wp-content/themes/selfie/images/selfie-internal-pages-new.jpg');
 }
 
 #secondary a.tag:hover,
 .bg3,
 .skillBar li span {
-  background-color: #1abc9c;
+    background-color: #1abc9c;
 }
 
 .browserImage .browserTop,
@@ -277,98 +314,96 @@ footer p a {
 .package-active,
 .timeline .note:hover:after,
 .timeline .note:hover:after {
-  background: #1abc9c;
+    background: #1abc9c;
 }
 
 .icon-box:after,
 .package-active:after {
-  border-top-color: #1abc9c;
+    border-top-color: #1abc9c;
 }
 
 .icon-circular i.fa {
-  border: 2px solid #1abc9c;
-  color: #1abc9c;
+    border: 2px solid #1abc9c;
+    color: #1abc9c;
 }
 
 .icon-circular:hover i.fa {
-  background: #1abc9c;
-  color: #fff;
+    background: #1abc9c;
+    color: #fff;
 }
 
 .packages {
-  border: 1px solid #1abc9c;
+    border: 1px solid #1abc9c;
 }
 
 .profileInfo h5 span,
 .selfie-profile-details h4 {
-  color: #1abc9c;
+    color: #1abc9c;
 }
 
 .bg3 .section-title div span {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header {
-  background: #CCC !important;
-  color: #222;
-  cursor: pointer;
-  display: block;
-  outline: 0 none !important;
-  padding: 0 !important;
-  text-decoration: none;
-  margin: 0 !important;
+    background: #CCC !important;
+    color: #222;
+    cursor: pointer;
+    display: block;
+    outline: 0 none !important;
+    padding: 0 !important;
+    text-decoration: none;
+    margin: 0 !important;
 }
 
 .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a:hover {
-  color: #222 !important;
+    color: #222 !important;
 }
 
-
 .darken {
-  background-color: rgba(0,0,0,0.95);
+    background-color: rgba(0,0,0,0.95);
 }
 
 .blog-audio-container {
-  background: #1abc9c;
+    background: #1abc9c;
 }
 
 .proftheme-widget #searchform i.icon-search:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .tagcloud a:hover {
-  background: #1abc9c !important;
-  color: #fff !important;
+    background: #1abc9c !important;
+    color: #fff !important;
 }
 
-
 article .post-excerpt a.btn:hover {
-  color: #1abc9c !important;
+    color: #1abc9c !important;
 }
 
 .portfolio-items .controls a i:hover,
 .portfolio-items .controls a:hover i {
-  background: #1abc9c;
-  border: 1px solid #1abc9c;
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
 }
 
 .timeline-icon .bg-primary {
-  background: #1abc9c;
+    background: #1abc9c;
 }
 
 .timeline-time {
-  color: #1abc9c;
+    color: #1abc9c;
 }
 
 .job-ribbon {
-  background: #1abc9c;
+    background: #1abc9c;
 }
 
 .job-ribbon::after,
 .job-ribbon::before {
-  border-color: #1abc9c transparent;
+    border-color: #1abc9c transparent;
 }
 
 .portfolio-items .item-info {
-  border: 2px solid #1abc9c;
+    border: 2px solid #1abc9c;
 }

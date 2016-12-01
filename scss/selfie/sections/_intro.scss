@@ -6,6 +6,14 @@
     .border-right .g-content.g-particle, .border-left .g-content.g-particle {
       margin: 0;
     }
+
+    h3.selfie-services-image-title {
+      color: $intro-text-color;
+      margin: 0 0 15px 0;
+    }
+    p {
+      font-size: 14px;
+    }
 }
 
 @media print {

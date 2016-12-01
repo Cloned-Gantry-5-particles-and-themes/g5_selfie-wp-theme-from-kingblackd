@@ -47,7 +47,7 @@
         </div>
         <div class="clear"></div>
         {% if particle.social %}
-        <div class="g-social" style="margin-top: 10px">
+        <div class="g-social center" style="margin-top: 10px">
             {% for item in particle.social %}
                 <a target="{{ particle.target|default('_blank')|e }}" href="{{ item.link|e }}" title="{{ item.text|e }}">
                     <span class="{{ item.icon|e }}"></span>

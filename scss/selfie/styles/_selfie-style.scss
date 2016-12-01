@@ -36,19 +36,6 @@ TABLE OF CONTENT
 */
 
 /* ##### GENERAL CLASS ##### */
-*,
-*::before,
-*:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
-body,
-html {
-	height: 100%;
-	width: 100%;
-}
 
 body {
 	color: #333333;
@@ -1233,9 +1220,12 @@ hr {
 }
 
 .skillBar {
-	margin-left: 0;
+	margin-left: 10px;
 	margin-top: 0;
 	text-align: left !important;
+	@include breakpoint(tablet-range) {
+		margin-top: 24px;
+	}
 }
 
 .skillBar li {
@@ -3186,7 +3176,6 @@ a.btn-trans {
 	color: #ffffff;
 	font-size: 13px;
 	font-weight: 300;
-	height: 141px;
 	outline: 0 none;
 	padding: 10px 5px 0 10px;
 	transition: all 0.4s ease 0.1s;
@@ -3518,7 +3507,7 @@ body img {
 }
 
 .counters-item {
-	width: 125px;
+	width: 50%;
 	height: 90px;
 	margin: 0;
 	float: left;
@@ -3743,6 +3732,7 @@ ul.selfie-personal-info li {
 
 h3.selfie-services-image-title {
 	font-size: 18px !important;
+	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 0.5px;
 }
@@ -5407,7 +5397,8 @@ img.mfp-img {
 .panel-body-right h4 {
 	font-size: 20px !important;
 	font-weight: 600;
-	margin-bottom: 15px;
+	line-height: 1;
+	margin-bottom: 0;
 }
 
 .panel-body-right h4 a {

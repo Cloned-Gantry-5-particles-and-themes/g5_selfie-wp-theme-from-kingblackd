@@ -30,7 +30,9 @@ layout:
     -
       - sectiontitle-6211
     -
-      - portfolio-6995
+      - 'spacer-spacer-6646 10'
+      - 'portfolio-6995 80'
+      - 'spacer-spacer-5194 10'
   /utility/:
     -
       - sectiontitle-3112
@@ -38,9 +40,7 @@ layout:
       - process-3920
   /expanded/:
     -
-      - 'custom-4289 25'
-      - 'custom-5015 50'
-      - 'custom-8324 25'
+      - quote-4332
   /above/:
     -
       - sectiontitle-8813
@@ -63,7 +63,7 @@ layout:
             - 'selfie-circle-widget-7655 25'
             - 'selfie-circle-widget-2478 25'
           -
-            - custom-2531
+            - googlemap-4972
           -
             - custom-5682
       -
@@ -164,33 +164,43 @@ content:
   infocard-6612:
     title: 'Intro Cards'
     attributes:
-      title: 'SEO OPTIMIZATION'
-      desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
+      title: Personality
+      desc: 'Gain insight into my personality through a combination of characteristics and qualities.'
       display: img
+      icon: 'fa fa-lightbulb-o'
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_notice.png'
     block:
       class: border-left
       variations: center
+      extra:
+        -
+          style: 'padding: 50px 15px;'
   infocard-4698:
     title: 'Intro Cards'
     attributes:
-      title: 'CREATIVE DESIGNER'
-      desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
+      title: Mindset
+      desc: 'Understand my mindset by discovering my way of thinking and set of attitudes and skills.'
       display: img
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_bulb.png'
     block:
       class: 'border-left border-right'
       variations: center
+      extra:
+        -
+          style: 'padding: 50px 15px;'
   infocard-5797:
     title: 'Intro Cards'
     attributes:
-      title: '2015 DESIGN AWARD'
-      desc: 'Lorem ipsum dolor sit amet, consectetur uos adipisicing elit Expedita voluptatu necessitatibus deleniti nisi.'
+      title: Character
+      desc: 'Take a look at the attributes and features that make up my distinguished individuality. '
       display: img
       image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2014/09/selfie_award.png'
     block:
       class: border-right
       variations: center
+      extra:
+        -
+          style: 'padding: 50px 15px;'
   sectiontitle-7684:
     title: 'Section Title'
     attributes:
@@ -211,6 +221,11 @@ content:
       email: john@johndoesmith.com
       address: '224 rosemount ave'
       social:
+        -
+          icon: 'fa fa-linkedin-square fa-2x'
+          text: ''
+          link: ''
+          name: linkedin
         -
           icon: 'fa fa-facebook-square fa-2x'
           text: ''
@@ -242,25 +257,25 @@ content:
     attributes:
       stats:
         -
-          icon: 'fa fa-comments fa-2x'
-          label: Languages
-          value: '3'
-          name: Languages
-        -
           icon: 'fa fa-flag fa-2x'
           label: 'Years Experience'
           value: '7'
           name: Experience
         -
-          icon: 'fa fa-trophy fa-2x'
-          label: Awards
-          value: '13'
-          name: Awards
-        -
           icon: 'fa fa-thumbs-up fa-2x'
           label: 'Volunteer Efforts'
           value: '5'
           name: Volunteer
+        -
+          icon: 'fa fa-comments fa-2x'
+          label: Languages
+          value: '3'
+          name: Languages
+        -
+          icon: 'fa fa-trophy fa-2x'
+          label: Awards
+          value: '13'
+          name: Awards
       skills:
         -
           title: LeaderShip
@@ -292,15 +307,15 @@ content:
     title: 'Mini Bio'
     attributes:
       name: 'John Smith'
-      subtitle: 'Creative and Professional Designer who loves everything around web design & programming.'
-      text: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur sagittis imperdiet. Sed eget libero nec ligula mollis lacinia accumsan nec lectus. Sed lacinia massa neque, ac commodo magna cursus at. Cras vehicula maximus nunc non varius. Curabitur ut augue non dui rutrum luctus. Suspendisse potenti. Cras lobortis ligula et nunc tempor, sit amet mollis neque ultrices. Nullam nec nulla ac odio condimentum accumsan. Nulla ac massa at nulla ultrices vulputate. Ut varius varius nulla, volutpat luctus risus faucibus non. Aenean vel faucibus odio.\n</p><p>\nQuisque sit amet tincidunt felis. Fusce sed nibh elementum, sagittis augue quis, mollis magna. Maecenas dapibus mi ultricies pellentesque rhoncus. Morbi pulvinar mollis metus, id efficitur justo. Integer mattis pretium quam ut laoreet. In suscipit ex in sagittis maximus. Cras leo leo, varius at feugiat gravida, gravida eget quam. </p>"
+      subtitle: '"Creative and Professional Designer who loves everything around web design & programming."'
+      text: "<p>Dean has earned his place as one of the most sought after real estate agents in Toronto. In 2013, Dean was recognized as the #1 producing agent in Century 21 Downtown. Dean makes the real estate process successful as well as enjoyable for everyone he represents. With years of experience ranging from condominiums; investment properties and luxury homes, Dean's main objective is to ensure that each and every individual he represents will feel as though he is working for them alone. Regardless of how insurmountable or unexpected the task, you will experience an agent who approaches each assignment with experience, honesty, and commitment to detail as he is tenacious in fulfilling the particular needs of his clientele. Always on top of market conditions, \n</p><p>\nDean understands value and assists his clients in obtaining it through their residences and investments. His work and dedication have without question added a new level of standards to the industry. </p>"
       signature: DBahl
   cv-9087:
     title: Resume
     attributes:
       class: accent
-      label: 'I am ready for any Project,'
-      title: 'Contact Me?'
+      label: 'I am ready for any challenge,'
+      title: 'Contact Me!'
       linktxt: 'Hire Me'
       link: '#contact'
       linktxt2: 'Download CV'
@@ -309,12 +324,12 @@ content:
     block:
       variations: center
   sectiontitle-6211:
-    title: 'Section Title'
+    title: 'Recent Readings'
     attributes:
       icon: 'fa fa-coffee fa-2x'
       title: 'Recent Readings'
       label: 'Pride & Joy'
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+      desc: 'Gain insight into my personality and character by viewing my recent readings from books and articles to blogs and publications.'
     block:
       variations: center
   portfolio-6995:
@@ -363,11 +378,12 @@ content:
           link: ''
           name: 'New item'
   sectiontitle-3112:
-    title: 'Section Title'
+    title: 'My Experience'
     attributes:
       icon: 'fa fa-wrench fa-2x'
       title: 'MY EXPERIENCE'
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+      label: 'Path to Success'
+      desc: 'Showcasing relevant work experience is critical in highlighting an individual’s career path and progress.'
     block:
       variations: center
   process-3920:
@@ -397,75 +413,50 @@ content:
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
-  custom-4289:
-    title: 'Custom HTML'
+  quote-4332:
     attributes:
-      html: '<i class="fa fa-2x fa-quote-right fa-flip-horizontal" aria-hidden="true"></i>'
-    block:
-      variations: align-right
-  custom-5015:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h4>It''s the repletion of affirmations that leads to belief becomes a deep conviction, things begin to happen</h4>'
-  custom-8324:
-    title: Quote
-    attributes:
-      html: '<i class="fa fa-2x fa-quote-right" aria-hidden="true"></i>'
-    block:
-      variations: align-left
+      text: 'I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams.'
   sectiontitle-8813:
-    title: 'Section Title'
+    title: 'MY Education'
     attributes:
       icon: 'fa fa-trophy fa-2x'
       title: 'MY Education'
-      label: 'Wide & Powerful'
+      label: 'Power of Learning'
     block:
       variations: center
   timeline-4855:
     attributes:
       sections:
         -
-          title: Education
-          icon: 'fa fa-briefcase'
+          title: latest
+          icon: 'fa fa-graduation-cap'
           name: Education
       items:
         -
-          section: Education
+          section: latest
           icon: 'fa fa-compass'
-          title: 'Lion Trade Corporation1'
+          title: 'Mcmaster University'
           link: /
-          label: 'Project Manager'
-          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
-          info1: 'Recent Training''s:'
-          info1_sub: 'Recent Training''s:'
-          info2: 'Recent Training''s:'
-          info2_sub: 'PMP, ITIL & CCNA'
-          date: '1051'
+          label: 'Bachelor of Arts'
+          desc: 'Hamilton, Ontario'
+          date: '1999 - 2003'
           name: 'New item'
         -
-          section: Education
+          section: latest
           icon: 'fa fa-compass3'
           title: 'Lion Trade Corporation'
           link: /
           label: 'Sleeping Hours'
-          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
-          info1: 'Recent Training''s:'
-          info1_sub: 'Recent Training''s:'
-          info2: 'Recent Training''s:'
-          info2_sub: 'Recent Training''s:'
+          desc: 'Hamilton, Ontario'
           date: '2016'
           name: 'New item'
         -
-          section: Education
+          section: latest
           icon: 'fa fa-compass'
           title: 'Lion Trade Corporation2'
           link: /
           label: 'Awards & Accolades'
-          desc: 'Lorem ipsum dolor sit amet, consectetur adicing adipisicing elit Expedita voluptatum deleniti eni necessitatibus deleniti nisi Lorem.'
-          info1: 'Recent Training''s:'
-          info1_sub: 'Recent Training''s:'
-          info2: 'Recent Training''s:'
-          info2_sub: 'Recent Training''s:'
+          desc: 'Hamilton, Ontario'
           date: '2019'
           name: 'New item'
   sectiontitle-2967:
@@ -543,10 +534,25 @@ content:
       icon: 'fa fa-envelope'
       label: www.johnsmith.com
       desc: 'PROFESSIONAL WEBSITE'
-  custom-2531:
-    title: 'Custom HTML'
+  googlemap-4972:
+    title: 'Google Map'
     attributes:
-      html: "<div id=\"map_canvas\"></div>\n<script src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyBMkRoN_9gBXocQZ-FfBGwLEJayFq7dlXc&callback=initMap\" async defer></script>\n<script src=\"http://local.vcard.com/wp-content/themes/g5_selfie/js/gmap-settings.js?\"></script>"
+      apikey: AIzaSyBMkRoN_9gBXocQZ-FfBGwLEJayFq7dlXc
+      width: 100%
+      height: 300px
+      maptype: ROADMAP
+      latitude: '52.052312'
+      longitude: '4.447141'
+      zoom: '14'
+      defaultmarker: show
+      markertext: ''
+      markerstate: '1'
+      scrollwheel: '0'
+      dragging: enabled
+      snazzymaps: '[{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7dcdcd"}]}]'
+      css:
+        class: map-canvas
+      extra: {  }
   custom-5682:
     title: 'Contact SC'
     attributes:

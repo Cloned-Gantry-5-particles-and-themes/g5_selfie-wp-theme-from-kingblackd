@@ -2,12 +2,11 @@
 
 {% block particle %}
 
-    <div class="{{ particle.class|e }}">
+    <div class="skills {{ particle.class|e }}">
         {% if particle.stats %}
-            <div class="g-grid">
                 <!-- some number facts -->
+                <div class="counter-wrapper">
                 {% for item in particle.stats %}
-                    <div class="g-block size-50">
                         <div class="counters-item">
                             <div class="counters-item-number">
                                 {% if item.icon %}
@@ -23,10 +22,10 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 {% endfor %}
+                <div class="clear"></div>
+              </div>
                 <!-- ./some number facts -->
-            </div>
         {% endif %}
 
 

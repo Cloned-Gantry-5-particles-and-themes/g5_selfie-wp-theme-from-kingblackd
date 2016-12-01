@@ -1,5 +1,5 @@
 name: home
-timestamp: 1480094247
+timestamp: 1480624821
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -35,9 +35,9 @@ particles:
     infocard-5797: 'Intro Cards'
   sectiontitle:
     sectiontitle-7684: 'Section Title'
-    sectiontitle-6211: 'Section Title'
-    sectiontitle-3112: 'Section Title'
-    sectiontitle-8813: 'Section Title'
+    sectiontitle-6211: 'Recent Readings'
+    sectiontitle-3112: 'My Experience'
+    sectiontitle-8813: 'MY Education'
     sectiontitle-2967: 'Section Title'
     sectiontitle-4237: 'Section Title'
   profile:
@@ -48,16 +48,15 @@ particles:
     bio-4636: 'Mini Bio'
   cv:
     cv-9087: Resume
+  spacer:
+    spacer-spacer-6646: Spacer
+    spacer-spacer-5194: Spacer
   portfolio:
     portfolio-6995: Projects
   process:
     process-3920: Process
-  custom:
-    custom-4289: 'Custom HTML'
-    custom-5015: 'Custom HTML'
-    custom-8324: Quote
-    custom-2531: 'Custom HTML'
-    custom-5682: 'Contact SC'
+  quote:
+    quote-4332: Quote
   timeline:
     timeline-4855: Timeline
   selfie-circle-widget:
@@ -65,6 +64,10 @@ particles:
     selfie-circle-widget-1947: 'Circle Widget'
     selfie-circle-widget-7655: 'Circle Widget'
     selfie-circle-widget-2478: 'Circle Widget'
+  googlemap:
+    googlemap-4972: 'Google Map'
+  custom:
+    custom-5682: 'Contact SC'
   totop:
     totop-8670: 'To Top'
   email:
