@@ -3458,14 +3458,6 @@ iframe {
 	padding: 35px 0;
 }
 
-.blog-item img,
-body .blog-item .post .post-thumb img,
-body .container img,
-body img {
-	height: auto;
-	max-width: 100% !important;
-}
-
 .name-title {
 	width: 100%;
 	max-width: 360px;
@@ -6512,6 +6504,9 @@ div.chart:last-child {
 
 	.portfolio-items article .overlay span {
 		top: 57%;
+		color: #1900ff;
+		background: #c0e8e8;
+		background-color: #7dcdcd;
 	}
 
 }

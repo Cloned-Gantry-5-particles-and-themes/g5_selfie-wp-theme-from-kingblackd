@@ -1,5 +1,5 @@
 name: home
-timestamp: 1480624821
+timestamp: 1481040852
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -49,8 +49,8 @@ particles:
   cv:
     cv-9087: Resume
   spacer:
-    spacer-spacer-6646: Spacer
-    spacer-spacer-5194: Spacer
+    spacer-6646: Spacer
+    spacer-5194: Spacer
   portfolio:
     portfolio-6995: Projects
   process:
@@ -59,11 +59,6 @@ particles:
     quote-4332: Quote
   timeline:
     timeline-4855: Timeline
-  selfie-circle-widget:
-    selfie-circle-widget-9207: 'Circle Widget'
-    selfie-circle-widget-1947: 'Circle Widget'
-    selfie-circle-widget-7655: 'Circle Widget'
-    selfie-circle-widget-2478: 'Circle Widget'
   googlemap:
     googlemap-4972: 'Google Map'
   custom:

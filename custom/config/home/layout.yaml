@@ -30,9 +30,9 @@ layout:
     -
       - sectiontitle-6211
     -
-      - 'spacer-spacer-6646 10'
+      - 'spacer-6646 10'
       - 'portfolio-6995 80'
-      - 'spacer-spacer-5194 10'
+      - 'spacer-5194 10'
   /utility/:
     -
       - sectiontitle-3112
@@ -57,11 +57,6 @@ layout:
         'mainbar 90':
           -
             - sectiontitle-4237
-          -
-            - 'selfie-circle-widget-9207 25'
-            - 'selfie-circle-widget-1947 25'
-            - 'selfie-circle-widget-7655 25'
-            - 'selfie-circle-widget-2478 25'
           -
             - googlemap-4972
           -
@@ -141,7 +136,7 @@ content:
     attributes:
       image: ''
       link: '1'
-      text: 'Dean Balh'
+      text: 'Prachi Sharma'
       class: g-logo
   owlcarousel-2455:
     title: 'Owl Carousel'
@@ -155,8 +150,8 @@ content:
       items:
         -
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/09/selfie-slider-two.jpg'
-          title: 'I Am Dean Balh'
-          desc: "I am an Award Winning Sales Representative\nin the great city of toronto."
+          title: 'I Am Prachi Sharma'
+          desc: 'I am an Certified Clinical Research Associate in the great city of Toronto.'
           link: ''
           linktext: ''
           buttonclass: ''
@@ -212,44 +207,44 @@ content:
   profile-6209:
     title: 'My Profile'
     attributes:
-      image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/11/selfe-profile-new-one.jpg'
-      name: 'John Doe Smith'
-      title: 'Designer / Photographer'
-      desc: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore duis aute irure dolor in reprehende in voluptate velit esse.\n\n"
-      dob: '1980-04-25'
-      phone: '+61 854 895 57 Ext. 123'
-      email: john@johndoesmith.com
-      address: '224 rosemount ave'
+      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/4/005/053/23e/2fbd43d.jpg'
+      name: 'Prachi Sharma'
+      title: 'Certified Clinical Research Associate'
+      desc: "276-001  Clinical Trial Research Coordinator\n276-002  Research Ethics and Regulatory Affairs\n276-003  Clinical Trial Methodologies in Practice\n\n\n"
+      dob: '1983-05-29'
+      phone: 905-802-3694
+      email: prachisharma.cra@outlook.com
+      address: ''
       social:
         -
           icon: 'fa fa-linkedin-square fa-2x'
           text: ''
-          link: ''
+          link: 'https://ca.linkedin.com/in/prachi-sharma-63325659'
           name: linkedin
         -
           icon: 'fa fa-facebook-square fa-2x'
           text: ''
-          link: ''
+          link: //www.facebook.com
           name: facebook
         -
           icon: 'fa fa-twitter-square fa-2x'
           text: ''
-          link: ''
+          link: //www.twitter.com
           name: twitter
         -
           icon: 'fa fa-google-plus-circle fa-2x'
           text: ''
-          link: ''
+          link: 'https://plus.google.com/'
           name: google
         -
           icon: 'fa fa-pinterest-square fa-2x'
           text: ''
-          link: ''
+          link: 'https://www.pinterest.com/'
           name: pinterest
         -
           icon: 'fa fa-youtube-play fa-2x'
           text: ''
-          link: ''
+          link: //www.youtube.com
           name: youtube
     block:
       class: 'nomarginleft nomarginright'
@@ -259,57 +254,57 @@ content:
         -
           icon: 'fa fa-flag fa-2x'
           label: 'Years Experience'
-          value: '7'
+          value: '8'
           name: Experience
         -
           icon: 'fa fa-thumbs-up fa-2x'
           label: 'Volunteer Efforts'
-          value: '5'
+          value: '2'
           name: Volunteer
         -
           icon: 'fa fa-comments fa-2x'
           label: Languages
-          value: '3'
+          value: '2'
           name: Languages
         -
           icon: 'fa fa-trophy fa-2x'
           label: Awards
-          value: '13'
+          value: '10'
           name: Awards
       skills:
         -
-          title: LeaderShip
-          percent: '75'
+          title: Leadership
+          percent: '70'
           name: LeaderShip
         -
           title: Initiative
-          percent: '80'
+          percent: '75'
           name: Initiative
         -
           title: Communication
-          percent: '95'
+          percent: '92'
           name: Communication
         -
           title: Enthusiaim
-          percent: '80'
+          percent: '70'
           name: Enthusiaim
         -
           title: 'Team Work'
-          percent: '100'
+          percent: '83'
           name: 'Team Work'
         -
           title: Creativity
-          percent: '90'
+          percent: '86'
           name: Creativity
     block:
       class: 'nomarginleft nomarginright'
   bio-4636:
     title: 'Mini Bio'
     attributes:
-      name: 'John Smith'
-      subtitle: '"Creative and Professional Designer who loves everything around web design & programming."'
-      text: "<p>Dean has earned his place as one of the most sought after real estate agents in Toronto. In 2013, Dean was recognized as the #1 producing agent in Century 21 Downtown. Dean makes the real estate process successful as well as enjoyable for everyone he represents. With years of experience ranging from condominiums; investment properties and luxury homes, Dean's main objective is to ensure that each and every individual he represents will feel as though he is working for them alone. Regardless of how insurmountable or unexpected the task, you will experience an agent who approaches each assignment with experience, honesty, and commitment to detail as he is tenacious in fulfilling the particular needs of his clientele. Always on top of market conditions, \n</p><p>\nDean understands value and assists his clients in obtaining it through their residences and investments. His work and dedication have without question added a new level of standards to the industry. </p>"
-      signature: DBahl
+      name: 'Prachi Sharma'
+      subtitle: '“America''s health care system is neither healthy, caring, nor a system.” '
+      text: "<p>Helped with designing and conducting clinical trial and reviewed protocol\nConducted study visits and collected informed consent and helped with subject recruitment \nAssisted Regulatory Affairs Manager in creation and collection of regulatory documents for different study sites\nExcellent knowledge of research ethics, legislative guidelines and regulatory issues\nEnsured compliance with appropriate Company SOPs GCP and ICH guidelines\nHelped clinical team in performing internal monitoring, site initiation visit, and close out visits\nAssisted with protocol writing, developing and managing source documents\nAttended investigator meetings and conferences and gave presentations on behalf of company\nTracked all time and expenses for clinical research team and submitted in a timely manner. Provided monthly metrics reports to the revenue department. Provided budget estimates for clinical studies\n </p>"
+      signature: 'Prachi Sharma'
   cv-9087:
     title: Resume
     attributes:
@@ -317,10 +312,10 @@ content:
       label: 'I am ready for any challenge,'
       title: 'Contact Me!'
       linktxt: 'Hire Me'
-      link: '#contact'
+      link: '#g-container-main'
       linktxt2: 'Download CV'
       icon: 'fa fa-arrow-down'
-      location: 'gantry-media://Mikhail_Johnson_Resume2016[203].pdf'
+      location: 'gantry-media://Prachi Sharma Resume.docx'
     block:
       variations: center
   sectiontitle-6211:
@@ -337,42 +332,37 @@ content:
     attributes:
       items:
         -
-          image: 'gantry-media://savannah/edgar.jpg'
+          image: 'gantry-media://savannah/H1.jpg'
           title: 'The Rave'
           label: 'Edgar Allen Poe'
           link: ''
           name: 'New item'
         -
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: ''
+          image: 'gantry-media://savannah/h3.jpg'
           title: 'Selfie Pic'
           label: 'BLACK | STAMP'
           link: ''
           name: 'New item'
         -
           image: 'gantry-media://savannah/edgar.jpg'
-          icon: ''
+          title: 'Selfie Pic'
+          label: 'BLACK | STAMP'
+          link: ''
+          name: 'New item'
+        -
+          image: 'gantry-media://savannah/h2.jpg'
           title: 'Selfie Pic'
           label: 'BLACK | STAMP'
           link: ''
           name: 'New item'
         -
           image: 'gantry-media://savannah/edgar.jpg'
-          icon: ''
           title: 'Selfie Pic'
           label: 'BLACK | STAMP'
           link: ''
           name: 'New item'
         -
           image: 'gantry-media://savannah/edgar.jpg'
-          icon: ''
-          title: 'Selfie Pic'
-          label: 'BLACK | STAMP'
-          link: ''
-          name: 'New item'
-        -
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: ''
           title: 'Selfie Pic'
           label: 'BLACK | STAMP'
           link: ''
@@ -390,32 +380,32 @@ content:
     attributes:
       items:
         -
-          title: Planning
-          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          title: 'KGK Synergize Inc.                     '
+          desc: 'Clinical Research Associate/ Clinical Trial Coordinator'
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
         -
-          title: Designing
-          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          title: 'Tata International Limited'
+          desc: 'Research Associate'
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
         -
-          title: Implementing
-          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          title: 'Juravinski Cancer Hospital'
+          desc: 'Clinical Research Assistant'
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
         -
-          title: Production
-          desc: 'Sectetur adipiscing elit. Donec quis erat sed elit scque iaculis. Nullam nec.'
+          title: 'Serum Institute of India Ltd'
+          desc: 'Research Trainee'
           image: 'http://themes.profteamsolutions.com/selfie/wp-content/uploads/2015/08/selfie-process-1.png'
           icon: 'fa fa-pagelines'
           name: 'New item'
   quote-4332:
     attributes:
-      text: 'I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams.'
+      text: '“Everyone should have health insurance? I say everyone should have health care. I''m not selling insurance.” '
   sectiontitle-8813:
     title: 'MY Education'
     attributes:
@@ -437,26 +427,26 @@ content:
           icon: 'fa fa-compass'
           title: 'Mcmaster University'
           link: /
-          label: 'Bachelor of Arts'
+          label: 'Master of Science (Molecular Biology)'
           desc: 'Hamilton, Ontario'
           date: '1999 - 2003'
           name: 'New item'
         -
           section: latest
-          icon: 'fa fa-compass3'
-          title: 'Lion Trade Corporation'
+          icon: 'fa fa-compass'
+          title: 'Vikram University'
           link: /
-          label: 'Sleeping Hours'
-          desc: 'Hamilton, Ontario'
-          date: '2016'
+          label: 'Masters of Science (Biochemistry & Microbiology)                                  '
+          desc: India
+          date: 'July 1999 - Jun 2001'
           name: 'New item'
         -
           section: latest
           icon: 'fa fa-compass'
-          title: 'Lion Trade Corporation2'
+          title: 'D.A.V.V University'
           link: /
-          label: 'Awards & Accolades'
-          desc: 'Hamilton, Ontario'
+          label: 'Bachelor of Science (Biochemistry & Microbiology)                                '
+          desc: India
           date: '2019'
           name: 'New item'
   sectiontitle-2967:
@@ -478,7 +468,7 @@ content:
         -
           image: ''
           title: ''
-          desc: '"Lorem ipsum dolor sit amet, consectetur adipisicing elit Expedita voluptatum necessitatibus deleniti nisi. Loremu ips umdolorio amet, consectetur." - John Doe'
+          desc: '"She is super good and nice and i like her." - John Doe'
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -486,7 +476,7 @@ content:
         -
           image: ''
           title: ''
-          desc: '"Lorem ipsum dolor sit amet, consectetur adipisicing elit Expedita voluptatum necessitatibus deleniti nisi. Loremu ips umdolorio amet, consectetur." - Jack Doe'
+          desc: '"Loved working with her she is great at getting things done." - Jack Doe'
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -494,7 +484,7 @@ content:
         -
           image: ''
           title: ''
-          desc: '"Lorem ipsum dolor sit amet, consectetur adipisicing elit Expedita voluptatum necessitatibus deleniti nisi. Loremu ips umdolorio amet, consectetur." - Jane Doe'
+          desc: '"Very quick and sharp and communicates good." - Jane Doe'
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -507,33 +497,9 @@ content:
       icon: 'fa fa-compress fa-2x'
       title: 'STAY IN TOUCH'
       label: 'Available & Always'
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lobortis nulla luctus et ultrices posuere cubilia,\nVestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae"
+      desc: 'Feel free to reach out to me at anytime, I''m always happy to connect !'
     block:
       variations: center
-  selfie-circle-widget-9207:
-    title: 'Circle Widget'
-    attributes:
-      icon: 'fa fa-phone'
-      label: '+1 323-444-4553'
-      desc: 'REACH ME ANYTIME'
-  selfie-circle-widget-1947:
-    title: 'Circle Widget'
-    attributes:
-      icon: 'fa fa-paperclip fa-2x'
-      label: example@site.com
-      desc: 'MY PERSONAL EMAIL'
-  selfie-circle-widget-7655:
-    title: 'Circle Widget'
-    attributes:
-      icon: 'fa fa-twitter'
-      label: '@johnsmith'
-      desc: 'SEND TWEET'
-  selfie-circle-widget-2478:
-    title: 'Circle Widget'
-    attributes:
-      icon: 'fa fa-envelope'
-      label: www.johnsmith.com
-      desc: 'PROFESSIONAL WEBSITE'
   googlemap-4972:
     title: 'Google Map'
     attributes:
@@ -541,18 +507,17 @@ content:
       width: 100%
       height: 300px
       maptype: ROADMAP
-      latitude: '52.052312'
-      longitude: '4.447141'
+      latitude: '43.6278147'
+      longitude: '-79.505008'
       zoom: '14'
       defaultmarker: show
       markertext: ''
       markerstate: '1'
       scrollwheel: '0'
       dragging: enabled
-      snazzymaps: '[{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#e0efef"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"hue":"#1900ff"},{"color":"#c0e8e8"}]},{"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"on"},{"lightness":700}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#7dcdcd"}]}]'
+      snazzymaps: "[{\n    \"featureType\": \"landscape.natural\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"visibility\": \"on\"\n    }, {\n        \"color\": \"#e0efef\"\n    }]\n}, {\n    \"featureType\": \"poi\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"visibility\": \"on\"\n    }, {\n        \"hue\": \"#1900ff\"\n    }, {\n        \"color\": \"#c0e8e8\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"geometry\",\n    \"stylers\": [{\n        \"lightness\": 100\n    }, {\n        \"visibility\": \"simplified\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"labels\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"transit.line\",\n    \"elementType\": \"geometry\",\n    \"stylers\": [{\n        \"visibility\": \"on\"\n    }, {\n        \"lightness\": 700\n    }]\n}, {\n    \"featureType\": \"water\",\n    \"elementType\": \"all\",\n    \"stylers\": [{\n        \"color\": \"#7dcdcd\"\n    }]\n}]"
       css:
         class: map-canvas
-      extra: {  }
   custom-5682:
     title: 'Contact SC'
     attributes:
@@ -567,7 +532,7 @@ content:
       class: g-flushed
   email-1270:
     attributes:
-      email: example@site.com
+      email: prachisharma.cra@outlook.com
     block:
       class: 'item_left selfie-footer-email'
   copyright-1736:
@@ -584,6 +549,6 @@ content:
       class: selfie-copyrights
   phone-9918:
     attributes:
-      tel: +1323-444-4553
+      tel: 905-802-3694
     block:
       class: 'selfie-footer-phone item_right'

@@ -95,3 +95,4 @@ form:
         .link:
           type: input.text
           label: Link
+          default: 'https://www.social.com'
